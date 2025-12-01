@@ -8,6 +8,7 @@ import os
 from django.utils import timezone
 from rest_framework import status, viewsets
 from rest_framework.decorators import action
+from rest_framework.pagination import PageNumberPagination
 from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
@@ -35,11 +36,20 @@ from zer0_pages.cms.serializers import (
 logger = logging.getLogger(__name__)
 
 
+class ContentPagination(PageNumberPagination):
+    """Pagination for content lists."""
+    
+    page_size = 20
+    page_size_query_param = "page_size"
+    max_page_size = 100
+
+
 class ContentViewSet(viewsets.ModelViewSet):
     """ViewSet for content management."""
     
-    queryset = Content.objects.all()
+    queryset = Content.objects.all().order_by("-created_at")
     permission_classes = [IsAuthenticated]
+    pagination_class = ContentPagination
     lookup_field = "slug"
     
     def get_serializer_class(self):
@@ -125,7 +135,7 @@ class ContentViewSet(viewsets.ModelViewSet):
 class PostViewSet(ContentViewSet):
     """ViewSet for blog posts."""
     
-    queryset = Content.objects.filter(content_type="post")
+    queryset = Content.objects.filter(content_type="post").order_by("-created_at")
     
     def get_permissions(self):
         if self.action in ["list", "retrieve"]:
@@ -149,7 +159,7 @@ class PostViewSet(ContentViewSet):
 class PageViewSet(ContentViewSet):
     """ViewSet for static pages."""
     
-    queryset = Content.objects.filter(content_type="page")
+    queryset = Content.objects.filter(content_type="page").order_by("-created_at")
     
     def get_permissions(self):
         if self.action in ["list", "retrieve"]:

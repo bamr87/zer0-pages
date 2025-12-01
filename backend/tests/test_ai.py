@@ -20,26 +20,34 @@ class TestAIEngine:
         engine = AIEngine(provider="anthropic")
         assert engine.provider_name == "anthropic"
     
-    def test_get_client_creates_client(self):
-        """Test that get_client creates appropriate client."""
+    def test_get_client_raises_for_unknown_provider(self):
+        """Test that get_client raises for unknown provider."""
         engine = AIEngine()
-        with pytest.raises(ValueError):
+        with pytest.raises(ValueError, match="Unknown AI provider"):
             engine.get_client("unknown_provider")
     
-    @patch.object(OpenAIClient, "client", new_callable=MagicMock)
-    def test_generate_calls_client(self, mock_client):
-        """Test that generate calls the client."""
+    def test_get_client_returns_correct_type(self):
+        """Test that get_client returns the correct client type."""
         engine = AIEngine()
+        client = engine.get_client("openai")
+        assert isinstance(client, OpenAIClient)
+
+
+class TestOpenAIClient:
+    """Test OpenAI client."""
+    
+    def test_client_initialization(self):
+        """Test OpenAI client can be initialized."""
+        client = OpenAIClient()
+        assert client.default_model == "gpt-4o"
+    
+    def test_generate_without_api_key_raises(self):
+        """Test that generate raises without API key."""
+        client = OpenAIClient()
+        client.api_key = ""  # Ensure no API key
         
-        # Mock the response
-        mock_response = MagicMock()
-        mock_response.choices = [MagicMock(message=MagicMock(content="Test response"), finish_reason="stop")]
-        mock_response.usage = MagicMock(prompt_tokens=10, completion_tokens=20)
-        mock_client.chat.completions.create.return_value = mock_response
-        
-        # This would fail without API key, but we're testing the structure
         with pytest.raises(ValueError, match="OpenAI API key not configured"):
-            engine.generate("Test prompt")
+            client.generate("Test prompt")
 
 
 class TestPromptTemplates:

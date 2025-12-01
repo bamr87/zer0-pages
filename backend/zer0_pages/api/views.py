@@ -2,7 +2,7 @@
 API views for health checks and system status.
 """
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 
 from django.conf import settings
 from django.db import connection
@@ -26,7 +26,7 @@ class HealthCheckView(APIView):
         """Return health status."""
         health_status = {
             "status": "healthy",
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             "version": "1.0.0",
         }
         
@@ -56,7 +56,7 @@ class SystemStatusView(APIView):
             "name": "zer0-pages",
             "version": "1.0.0",
             "environment": "development" if settings.DEBUG else "production",
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             "components": {
                 "django": {
                     "status": "operational",

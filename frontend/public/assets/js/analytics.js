@@ -44,17 +44,15 @@
       properties: properties
     };
     
-    // Use sendBeacon for reliability
-    if (navigator.sendBeacon) {
-      navigator.sendBeacon(API_BASE + '/track/', JSON.stringify(payload));
-    } else {
-      fetch(API_BASE + '/track/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-        keepalive: true
-      }).catch(() => {});
-    }
+    // Use fetch API with proper Content-Type for consistency
+    fetch(API_BASE + '/track/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      keepalive: true
+    }).catch(function() {
+      // Silently ignore errors - analytics should not break the user experience
+    });
   }
   
   // Track page view
@@ -78,7 +76,7 @@
       for (const threshold of thresholds) {
         if (scrollPercent >= threshold && maxScroll < threshold) {
           maxScroll = threshold;
-          trackEvent('scroll_depth', `Scroll ${threshold}%`, { depth: threshold });
+          trackEvent('scroll_depth', 'Scroll ' + threshold + '%', { depth: threshold });
         }
       }
     }, { passive: true });

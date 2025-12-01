@@ -1,15 +1,12 @@
 """
 AI Content Engine - Multi-provider AI client.
 """
-import hashlib
 import logging
 import time
 from abc import ABC, abstractmethod
-from datetime import datetime, timedelta
 from typing import Any
 
 from django.conf import settings
-from django.utils import timezone
 
 logger = logging.getLogger(__name__)
 
@@ -239,11 +236,6 @@ class AIEngine:
             self._clients[provider] = self.PROVIDERS[provider]()
         
         return self._clients[provider]
-    
-    def _get_prompt_hash(self, prompt: str, model: str) -> str:
-        """Generate hash for prompt caching."""
-        content = f"{prompt}:{model}"
-        return hashlib.sha256(content.encode()).hexdigest()
     
     def generate(
         self,

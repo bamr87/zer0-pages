@@ -1,0 +1,136 @@
+# zer0-pages Docker Compose Configuration
+# Development environment
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    container_name: zer0-pages-db
+    environment:
+      POSTGRES_DB: zer0_pages
+      POSTGRES_USER: zer0_pages
+      POSTGRES_PASSWORD: zer0_pages_dev
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U zer0_pages"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: zer0-pages-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Django Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: zer0-pages-backend
+    environment:
+      - DEBUG=True
+      - DJANGO_SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DB_NAME=zer0_pages
+      - DB_USER=zer0_pages
+      - DB_PASSWORD=zer0_pages_dev
+      - DB_HOST=db
+      - DB_PORT=5432
+      - REDIS_URL=redis://redis:6379/1
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - ALLOWED_HOSTS=localhost,127.0.0.1,backend
+      - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+
+  # Celery Worker
+  celery:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: zer0-pages-celery
+    environment:
+      - DEBUG=True
+      - DJANGO_SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DB_NAME=zer0_pages
+      - DB_USER=zer0_pages
+      - DB_PASSWORD=zer0_pages_dev
+      - DB_HOST=db
+      - DB_PORT=5432
+      - REDIS_URL=redis://redis:6379/1
+      - CELERY_BROKER_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A zer0_pages worker -l info
+
+  # Celery Beat (Task Scheduler)
+  celery-beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: zer0-pages-celery-beat
+    environment:
+      - DEBUG=True
+      - DJANGO_SECRET_KEY=django-insecure-dev-key-change-in-production
+      - DB_NAME=zer0_pages
+      - DB_USER=zer0_pages
+      - DB_PASSWORD=zer0_pages_dev
+      - DB_HOST=db
+      - DB_PORT=5432
+      - REDIS_URL=redis://redis:6379/1
+      - CELERY_BROKER_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A zer0_pages beat -l info
+
+  # Jekyll Site Builder
+  jekyll:
+    image: jekyll/jekyll:4.3
+    container_name: zer0-pages-jekyll
+    environment:
+      - JEKYLL_ENV=development
+    volumes:
+      - ./frontend/public:/srv/jekyll
+      - jekyll_bundle:/usr/local/bundle
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    command: jekyll serve --livereload --force_polling
+
+volumes:
+  postgres_data:
+  static_volume:
+  media_volume:
+  jekyll_bundle:

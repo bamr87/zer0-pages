@@ -1,0 +1,43 @@
+<header class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="{{ '/' | relative_url }}">
+      <i class="bi bi-braces-asterisk text-primary"></i>
+      {{ site.title }}
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/docs/' | relative_url }}">Docs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
+        </li>
+      </ul>
+      
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/bamr87/zer0-pages" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <button class="btn nav-link" id="theme-toggle" aria-label="Toggle theme">
+            <i class="bi bi-sun-fill d-none" id="theme-icon-light"></i>
+            <i class="bi bi-moon-fill" id="theme-icon-dark"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>

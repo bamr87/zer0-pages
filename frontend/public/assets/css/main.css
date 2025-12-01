@@ -1,0 +1,136 @@
+/* zer0-pages Custom Styles */
+
+:root {
+  --z0-primary: #0d6efd;
+  --z0-secondary: #6c757d;
+  --z0-accent: #198754;
+}
+
+/* Body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content */
+.content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.content pre {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.content code {
+  font-size: 0.9em;
+}
+
+.content blockquote {
+  border-left: 4px solid var(--z0-primary);
+  padding-left: 1rem;
+  margin-left: 0;
+  color: var(--bs-secondary-color);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--z0-primary) 0%, #0a58ca 100%);
+  color: white;
+  padding: 6rem 0;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Feature Cards */
+.feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: var(--z0-primary);
+}
+
+/* Post Cards */
+.post-card {
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Theme Toggle */
+#theme-toggle {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+[data-bs-theme="dark"] #theme-icon-light {
+  display: inline-block !important;
+}
+
+[data-bs-theme="dark"] #theme-icon-dark {
+  display: none !important;
+}
+
+/* Syntax Highlighting */
+.highlight {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+[data-bs-theme="dark"] .highlight {
+  background: #1e1e1e;
+}
+
+/* Responsive Tables */
+.content table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.content th,
+.content td {
+  padding: 0.75rem;
+  border: 1px solid var(--bs-border-color);
+}
+
+.content th {
+  background: var(--bs-tertiary-bg);
+}

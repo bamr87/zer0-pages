@@ -1,0 +1,55 @@
+<footer class="bg-body-tertiary py-5 mt-auto">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h5 class="fw-bold">
+          <i class="bi bi-braces-asterisk text-primary"></i>
+          {{ site.title }}
+        </h5>
+        <p class="text-muted">{{ site.tagline }}</p>
+        <p class="small text-muted">{{ site.description }}</p>
+      </div>
+      
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h6 class="fw-bold">Product</h6>
+        <ul class="list-unstyled">
+          <li><a href="{{ '/docs/' | relative_url }}" class="text-muted text-decoration-none">Documentation</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}" class="text-muted text-decoration-none">Blog</a></li>
+          <li><a href="https://github.com/bamr87/zer0-pages/releases" class="text-muted text-decoration-none">Releases</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h6 class="fw-bold">Community</h6>
+        <ul class="list-unstyled">
+          <li><a href="https://github.com/bamr87/zer0-pages" class="text-muted text-decoration-none">GitHub</a></li>
+          <li><a href="https://github.com/bamr87/zer0-pages/discussions" class="text-muted text-decoration-none">Discussions</a></li>
+          <li><a href="https://github.com/bamr87/zer0-pages/issues" class="text-muted text-decoration-none">Issues</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-md-4">
+        <h6 class="fw-bold">Legal</h6>
+        <ul class="list-unstyled">
+          <li><a href="{{ '/privacy/' | relative_url }}" class="text-muted text-decoration-none">Privacy Policy</a></li>
+          <li><a href="{{ '/terms/' | relative_url }}" class="text-muted text-decoration-none">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <hr class="my-4">
+    
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="small text-muted mb-0">
+          &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.
+        </p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <p class="small text-muted mb-0">
+          Built with <i class="bi bi-heart-fill text-danger"></i> using Django + Jekyll
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

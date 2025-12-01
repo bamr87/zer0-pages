@@ -1,0 +1,89 @@
+# zer0-pages Jekyll Configuration
+# See: https://jekyllrb.com/docs/configuration/
+
+# Site Settings
+title: zer0-pages
+tagline: "Zero friction. Infinite possibilities."
+description: >-
+  AI-Powered Content Management System that combines Django's robust backend
+  with Jekyll's lightning-fast static site generation.
+baseurl: ""
+url: ""
+
+# Author
+author:
+  name: zer0-pages Team
+  email: hello@zer0-pages.dev
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "zer0-pages"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - LICENSE
+
+# Sass/SCSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Kramdown options
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Feed settings
+feed:
+  path: feed.xml
+
+# SEO settings
+twitter:
+  card: summary_large_image
+social:
+  name: zer0-pages
+  links:
+    - https://github.com/bamr87/zer0-pages

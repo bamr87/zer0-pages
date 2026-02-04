@@ -1,0 +1,42 @@
+[
+  {
+    "model": "content.post",
+    "pk": 1,
+    "fields": {
+      "title": "Test Published Post",
+      "slug": "test-published-post",
+      "content": "This is a test published post content.",
+      "summary": "Test summary",
+      "status": "published",
+      "author": 2,
+      "published_at": "2024-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "content.post",
+    "pk": 2,
+    "fields": {
+      "title": "Test Draft Post",
+      "slug": "test-draft-post",
+      "content": "This is a test draft post content.",
+      "summary": "Draft summary",
+      "status": "draft",
+      "author": 2,
+      "published_at": null
+    }
+  },
+  {
+    "model": "content.page",
+    "pk": 1,
+    "fields": {
+      "title": "About Page",
+      "slug": "about",
+      "content": "This is the about page content.",
+      "status": "published",
+      "author": 2
+    }
+  }
+]
+
+
+

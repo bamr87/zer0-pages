@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+node_modules/
+dist/
+build/
+*.sqlite3
+*.log
+.DS_Store
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+.nyc_output/
+test-results/
+playwright-report/
+playwright/.cache/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+e2e/test-results/
+e2e/playwright-report/
+e2e/playwright/.cache/
+
+# Jekyll test output
+jekyll_site/
+test_jekyll_output/
+

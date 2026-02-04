@@ -1,0 +1,38 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin",
+      "email": "admin@example.com",
+      "role": "admin",
+      "is_staff": true,
+      "is_superuser": true
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "username": "editor",
+      "email": "editor@example.com",
+      "role": "editor",
+      "is_staff": false,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "username": "viewer",
+      "email": "viewer@example.com",
+      "role": "viewer",
+      "is_staff": false,
+      "is_superuser": false
+    }
+  }
+]
+
+
+

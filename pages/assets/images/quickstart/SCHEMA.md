@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — quickstart
 
-> TODO: one sentence — what this directory is for.
+> Screenshots embedded by the _docs/getting-started/ quick-start guide.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `site-running.png` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `*.png` | pattern | Quick-start walkthrough screenshots (local site running) | |

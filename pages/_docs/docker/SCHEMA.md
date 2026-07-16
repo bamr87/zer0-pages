@@ -5,14 +5,15 @@ coverage: listed
 
 # SCHEMA — docker
 
-> TODO: one sentence — what this directory is for.
+> Docs on the Docker-first local development environment.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `index.md` | file | TODO | |
+| `index.md` | file | Docker topic landing page | |
+| `*.md` | pattern | Docker development doc pages | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New docker doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

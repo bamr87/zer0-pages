@@ -5,20 +5,15 @@ coverage: listed
 
 # SCHEMA — _notes
 
-> TODO: one sentence — what this directory is for.
+> Notes collection — quick-reference cheatsheets and command snippets published under /notes/.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `_templates/` | dir | TODO | |
-| `bash-shortcuts.md` | file | TODO | |
-| `claude-obsidian-cheatsheet.md` | file | TODO | |
-| `docker-commands.md` | file | TODO | |
-| `git-cheatsheet.md` | file | TODO | |
-| `jekyll-front-matter.md` | file | TODO | |
-| `markdown-tips.md` | file | TODO | |
+| `_templates/` | dir | Frontmatter template for new notes — excluded from the build | |
+| `*.md` | pattern | One cheatsheet per tool or topic (kebab-case slug, `layout: note`) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New cheatsheet → `<topic>.md` here, started from `_templates/note-template.md`.

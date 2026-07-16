@@ -5,14 +5,14 @@ coverage: listed
 
 # SCHEMA — meta
 
-> TODO: one sentence — what this directory is for.
+> Vault governance — the conventions the wiki skills follow when filing pages.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `conventions.md` | file | TODO | |
+| `conventions.md` | file | Vault conventions — page types, frontmatter, naming, and linking rules | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New governance note → a kebab-case `.md` here.

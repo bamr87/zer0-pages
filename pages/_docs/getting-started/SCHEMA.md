@@ -5,16 +5,15 @@ coverage: listed
 
 # SCHEMA — getting-started
 
-> TODO: one sentence — what this directory is for.
+> First-run orientation docs for new users of the theme.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `index.md` | file | TODO | |
-| `quick-start.md` | file | TODO | |
-| `theme-guide.md` | file | TODO | |
+| `index.md` | file | Getting-started topic landing page | |
+| `*.md` | pattern | Orientation guides (quick start, theme guide) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New getting-started doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

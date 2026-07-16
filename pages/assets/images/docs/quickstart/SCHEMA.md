@@ -5,15 +5,10 @@ coverage: listed
 
 # SCHEMA — quickstart
 
-> TODO: one sentence — what this directory is for.
+> Screenshots embedded by the _docs/quickstart/ guides.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `docs-deployment.png` | file | TODO | |
-| `theme-home.png` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `*.png` | pattern | Quickstart walkthrough screenshots (deployed docs, theme home) | |

@@ -5,22 +5,14 @@ coverage: listed
 
 # SCHEMA — noise
 
-> TODO: one sentence — what this directory is for.
+> SVG noise textures generated with fffuel.co's nnnoise tool — one per theme skin.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `air.svg` | file | TODO | |
-| `aqua.svg` | file | TODO | |
-| `contrast.svg` | file | TODO | |
-| `dark.svg` | file | TODO | |
-| `dirt.svg` | file | TODO | |
-| `mint.svg` | file | TODO | |
-| `neon.svg` | file | TODO | |
-| `plum.svg` | file | TODO | |
-| `sunrise.svg` | file | TODO | |
+| `*.svg` | pattern | Noise texture for the matching skin key in _data/theme_skins.yml (air, aqua, dark, ...) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New skin → its noise SVG here, wired up in `_data/theme_backgrounds.yml`.

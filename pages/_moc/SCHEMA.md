@@ -5,17 +5,17 @@ coverage: listed
 
 # SCHEMA — _moc
 
-> TODO: one sentence — what this directory is for.
+> Maps of Content collection — dashboard pages published under /moc/ that map and link out across the vault.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `Docs.md` | file | TODO | |
-| `Home.md` | file | TODO | |
-| `Notes.md` | file | TODO | |
-| `Posts.md` | file | TODO | |
+| `Docs.md` | file | MOC for the docs collection | |
+| `Home.md` | file | Front-door MOC — the entry map of the whole vault | |
+| `Notes.md` | file | MOC for the notes collection | |
+| `Posts.md` | file | MOC for the posts collection | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New collection → a matching TitleCase MOC page here, linked from `Home.md`.

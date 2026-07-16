@@ -5,16 +5,15 @@ coverage: listed
 
 # SCHEMA — sources
 
-> TODO: one sentence — what this directory is for.
+> Source-summary pages — one per ingested document or article (type: source).
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `_index.md` | file | TODO | |
-| `wizard-topples-capitalist-dominance.md` | file | TODO | |
-| `zer0-pages-prd.md` | file | TODO | |
+| `_index.md` | file | Section index listing the sources pages | |
+| `*.md` | pattern | One source summary per ingested document (kebab-case slug) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New source page → a kebab-case `.md` here from `pages/_templates/source.md`; register it in `../index.md`.

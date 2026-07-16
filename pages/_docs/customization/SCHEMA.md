@@ -5,19 +5,15 @@ coverage: listed
 
 # SCHEMA — customization
 
-> TODO: one sentence — what this directory is for.
+> Docs on customizing the zer0-mistakes theme without forking it.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `author-profiles.md` | file | TODO | |
-| `includes.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `layouts.md` | file | TODO | |
-| `navigation.md` | file | TODO | |
-| `styles.md` | file | TODO | |
+| `index.md` | file | Customization topic landing page | |
+| `*.md` | pattern | One doc page per customization surface (layouts, includes, navigation, styles, author profiles) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New customization doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

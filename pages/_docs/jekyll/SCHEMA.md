@@ -5,17 +5,15 @@ coverage: listed
 
 # SCHEMA — jekyll
 
-> TODO: one sentence — what this directory is for.
+> Docs on Jekyll fundamentals as used by this site.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `code-highlighting.md` | file | TODO | |
-| `collections.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `pagination.md` | file | TODO | |
+| `index.md` | file | Jekyll topic landing page | |
+| `*.md` | pattern | One doc page per Jekyll concept (collections, pagination, code highlighting) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New jekyll doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

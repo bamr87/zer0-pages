@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — css
 
-> TODO: one sentence — what this directory is for.
+> The site's CSS override hook — the theme's head.html loads it last, so rules here win over theme defaults.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `user-overrides.css` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `user-overrides.css` | file | Styles for markup emitted by the local Obsidian bridge plugins (callouts, Dataview tables) — everything generic comes from the theme | |

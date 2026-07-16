@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — obsidian
 
-> TODO: one sentence — what this directory is for.
+> Local overrides of the theme gem's obsidian/ includes.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `full-graph.html` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `full-graph.html` | file | Full vault-graph page body, trimmed for zer0-pages and crediting the local bridge generator | |

@@ -5,15 +5,10 @@ coverage: listed
 
 # SCHEMA — author-profiles
 
-> TODO: one sentence — what this directory is for.
+> Screenshots embedded by _docs/customization/author-profiles.md.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `ai-persona-profile.png` | file | TODO | |
-| `interactive-profile.png` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `*.png` | pattern | Author-profile UI screenshots (AI persona profile, interactive profile) | |

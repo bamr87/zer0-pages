@@ -5,16 +5,16 @@ coverage: listed
 
 # SCHEMA — docs
 
-> TODO: one sentence — what this directory is for.
+> Screenshots embedded by _docs/ pages, grouped by doc area.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `author-profiles/` | dir | TODO | |
-| `features/` | dir | TODO | |
-| `quickstart/` | dir | TODO | |
+| `author-profiles/` | dir | Screenshots for the customization/author-profiles doc | |
+| `features/` | dir | Screenshots for the feature-catalog docs (one per documented feature) | |
+| `quickstart/` | dir | Screenshots for the quickstart guides | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New doc screenshot → the subdirectory matching its doc area (create one per new area).

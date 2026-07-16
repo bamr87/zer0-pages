@@ -5,14 +5,15 @@ coverage: listed
 
 # SCHEMA — liquid
 
-> TODO: one sentence — what this directory is for.
+> Docs on Liquid templating (taught, not executed — content renders with render_with_liquid: false).
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `index.md` | file | TODO | |
+| `index.md` | file | Liquid topic landing page | |
+| `*.md` | pattern | Liquid templating doc pages | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New liquid doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

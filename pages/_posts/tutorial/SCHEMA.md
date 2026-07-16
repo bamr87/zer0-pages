@@ -5,17 +5,15 @@ coverage: listed
 
 # SCHEMA — tutorial
 
-> TODO: one sentence — what this directory is for.
+> Tutorial category — hands-on, step-by-step guide posts.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `2000-01-01-index.md` | file | TODO | |
-| `2025-01-23-css-grid-mastery.md` | file | TODO | |
-| `2026-04-28-accessible-form-patterns.md` | file | TODO | |
-| `2026-04-28-responsive-documentation-card-grid.md` | file | TODO | |
+| `2000-01-01-index.md` | file | Category landing page (epoch-dated so it never tops recent-post lists) | |
+| `2???-??-??-*.md` | pattern | Dated tutorial posts (YYYY-MM-DD-slug.md) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New tutorial post → `YYYY-MM-DD-slug.md` here.

@@ -5,17 +5,15 @@ coverage: listed
 
 # SCHEMA — world
 
-> TODO: one sentence — what this directory is for.
+> World category — society, work, and resilience posts.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `2000-01-01-index.md` | file | TODO | |
-| `2025-01-21-remote-work-revolution.md` | file | TODO | |
-| `2026-04-28-local-resilience-networks.md` | file | TODO | |
-| `2026-04-28-urban-resilience-extreme-heat.md` | file | TODO | |
+| `2000-01-01-index.md` | file | Category landing page (epoch-dated so it never tops recent-post lists) | |
+| `2???-??-??-*.md` | pattern | Dated world posts (YYYY-MM-DD-slug.md) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New world post → `YYYY-MM-DD-slug.md` here.

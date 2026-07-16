@@ -5,32 +5,30 @@ coverage: listed
 
 # SCHEMA — _docs
 
-> TODO: one sentence — what this directory is for.
+> Docs collection — topic-organized documentation for the site and the zer0-mistakes theme, published under /docs/.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `analytics/` | dir | TODO | |
-| `bootstrap/` | dir | TODO | |
-| `customization/` | dir | TODO | |
-| `deployment/` | dir | TODO | |
-| `development/` | dir | TODO | |
-| `docker/` | dir | TODO | |
-| `features/` | dir | TODO | |
-| `getting-started/` | dir | TODO | |
-| `jekyll/` | dir | TODO | |
-| `liquid/` | dir | TODO | |
-| `obsidian/` | dir | TODO | |
-| `quickstart/` | dir | TODO | |
-| `ruby/` | dir | TODO | |
-| `seo/` | dir | TODO | |
-| `front-matter.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `installation.md` | file | TODO | |
-| `ruby-101.md` | file | TODO | |
-| `troubleshooting.md` | file | TODO | |
+| `analytics/` | dir | Web analytics integration docs (Google Analytics, Tag Manager) | |
+| `bootstrap/` | dir | Bootstrap 5 integration docs | |
+| `customization/` | dir | Theme customization docs — layouts, includes, navigation, styles, author profiles | |
+| `deployment/` | dir | Deployment guides — GitHub Pages, Netlify, custom domain, remote-theme checklist | |
+| `development/` | dir | Development-process docs — CI/CD, testing, releases, security, agents, scripts | |
+| `docker/` | dir | Docker-based local development docs | |
+| `features/` | dir | One page per theme feature (search, TOC, comments, dashboards, diagrams, ...) | |
+| `getting-started/` | dir | Orientation guides — quick start and theme guide | |
+| `jekyll/` | dir | Jekyll fundamentals — collections, pagination, code highlighting | |
+| `liquid/` | dir | Liquid templating docs | |
+| `obsidian/` | dir | Obsidian vault integration docs — authoring workflow, graph, syntax, performance | |
+| `quickstart/` | dir | Fastest-path setup guides — bare minimum starter and fork-and-deploy | |
+| `ruby/` | dir | Ruby language docs | |
+| `seo/` | dir | SEO docs — meta tags, sitemap, AIEO | |
+| `index.md` | file | /docs/ landing page | |
+| `*.md` | pattern | Standalone top-level doc pages (installation, front-matter, ruby-101, troubleshooting) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New doc page → the matching topic directory as a kebab-case `.md` file.
+- New topic → a directory with `index.md` + `SCHEMA.md`, plus a section in `_data/navigation/docs.yml`.

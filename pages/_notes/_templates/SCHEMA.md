@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — _templates
 
-> TODO: one sentence — what this directory is for.
+> Scaffolding template for new notes (excluded from the Jekyll build).
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `note-template.md` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `note-template.md` | file | Frontmatter skeleton ({{title}}/{{date}} placeholders) for new _notes/ cheatsheets | |

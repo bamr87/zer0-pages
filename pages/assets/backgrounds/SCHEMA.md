@@ -5,14 +5,14 @@ coverage: listed
 
 # SCHEMA — backgrounds
 
-> TODO: one sentence — what this directory is for.
+> Background texture assets for the theme's per-skin background system (_data/theme_backgrounds.yml).
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `noise/` | dir | TODO | |
+| `noise/` | dir | SVG noise textures (fffuel.co nnnoise) — one per theme skin | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New texture kind (gradients, patterns) → its own subdirectory here, mapped in `_data/theme_backgrounds.yml`.

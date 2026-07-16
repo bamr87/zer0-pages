@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — js
 
-> TODO: one sentence — what this directory is for.
+> The site's JS override hook, loaded by the theme when `user_overrides: true`.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `user-overrides.js` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `user-overrides.js` | file | Intentionally-empty JS hook so the theme's script tag resolves — add site JS here | |

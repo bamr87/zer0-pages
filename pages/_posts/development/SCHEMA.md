@@ -5,18 +5,15 @@ coverage: listed
 
 # SCHEMA — development
 
-> TODO: one sentence — what this directory is for.
+> Development category — software engineering practice posts.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `2000-01-01-index.md` | file | TODO | |
-| `2025-01-22-git-workflow-best-practices.md` | file | TODO | |
-| `2026-04-28-feature-flags-continuous-delivery.md` | file | TODO | |
-| `2026-04-28-observability-for-small-apps.md` | file | TODO | |
-| `2026-07-05-inside-the-zer0-pages-engine.md` | file | TODO | |
+| `2000-01-01-index.md` | file | Category landing page (epoch-dated so it never tops recent-post lists) | |
+| `2???-??-??-*.md` | pattern | Dated development posts (YYYY-MM-DD-slug.md) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New development post → `YYYY-MM-DD-slug.md` here.

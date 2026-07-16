@@ -5,17 +5,15 @@ coverage: listed
 
 # SCHEMA — seo
 
-> TODO: one sentence — what this directory is for.
+> Docs on search and AI-engine optimization.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `aieo.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `meta-tags.md` | file | TODO | |
-| `sitemap.md` | file | TODO | |
+| `index.md` | file | SEO topic landing page | |
+| `*.md` | pattern | One doc page per SEO concern (meta tags, sitemap, AIEO) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New seo doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

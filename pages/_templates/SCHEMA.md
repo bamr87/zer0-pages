@@ -5,18 +5,18 @@ coverage: listed
 
 # SCHEMA — _templates
 
-> TODO: one sentence — what this directory is for.
+> Obsidian Templater templates — one per wiki page type; excluded from the Jekyll build.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `comparison.md` | file | TODO | |
-| `concept.md` | file | TODO | |
-| `entity.md` | file | TODO | |
-| `question.md` | file | TODO | |
-| `source.md` | file | TODO | |
+| `comparison.md` | file | Template for wiki comparison pages (X vs Y trade-offs) | |
+| `concept.md` | file | Template for wiki concept pages (ideas, methodologies) | |
+| `entity.md` | file | Template for wiki entity pages (orgs, tools, projects, standards) | |
+| `question.md` | file | Template for wiki open-question pages | |
+| `source.md` | file | Template for wiki source-summary pages | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New wiki page type → its template here, plus a conventions note in `pages/wiki/meta/`.

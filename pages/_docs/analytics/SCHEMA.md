@@ -5,16 +5,15 @@ coverage: listed
 
 # SCHEMA — analytics
 
-> TODO: one sentence — what this directory is for.
+> Docs on wiring web analytics into the site.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `google-analytics.md` | file | TODO | |
-| `google-tag-manager.md` | file | TODO | |
-| `index.md` | file | TODO | |
+| `index.md` | file | Analytics topic landing page | |
+| `*.md` | pattern | One doc page per analytics integration (Google Analytics, Tag Manager) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New analytics doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

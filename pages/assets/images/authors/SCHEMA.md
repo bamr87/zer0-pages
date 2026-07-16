@@ -5,15 +5,15 @@ coverage: listed
 
 # SCHEMA — authors
 
-> TODO: one sentence — what this directory is for.
+> Author avatar images — one per author key in _data/authors.yml.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `bamr87.png` | file | TODO | |
-| `cassandra.svg` | file | TODO | |
+| `bamr87.png` | file | Avatar for the `bamr87` author key | |
+| `cassandra.svg` | file | Avatar for the `cassandra` author key | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New author → an avatar here named after its `_data/authors.yml` key.

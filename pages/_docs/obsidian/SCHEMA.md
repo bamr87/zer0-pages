@@ -5,20 +5,15 @@ coverage: listed
 
 # SCHEMA — obsidian
 
-> TODO: one sentence — what this directory is for.
+> Docs on the Obsidian vault integration and bridge plugins.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `authoring-workflow.md` | file | TODO | |
-| `getting-started.md` | file | TODO | |
-| `graph.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `performance.md` | file | TODO | |
-| `syntax-reference.md` | file | TODO | |
-| `troubleshooting.md` | file | TODO | |
+| `index.md` | file | Obsidian topic landing page | |
+| `*.md` | pattern | One doc page per vault concern (authoring workflow, graph, syntax reference, performance, troubleshooting) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New obsidian doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

@@ -5,14 +5,10 @@ coverage: listed
 
 # SCHEMA — tools
 
-> TODO: one sentence — what this directory is for.
+> Repo tooling seeded by the bamr87 dash.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `schema_lint.py` | file | TODO | |
-
-## Placement
-
-- TODO: route common additions, or delete this section.
+| `schema_lint.py` | file | Vendored Pyramid Schema linter — `python3 tools/schema_lint.py check .` validates every SCHEMA.md against reality | |

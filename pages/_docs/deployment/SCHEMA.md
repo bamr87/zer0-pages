@@ -5,19 +5,15 @@ coverage: listed
 
 # SCHEMA — deployment
 
-> TODO: one sentence — what this directory is for.
+> Docs on building and deploying the site.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `build-overlay.md` | file | TODO | |
-| `custom-domain.md` | file | TODO | |
-| `github-pages.md` | file | TODO | |
-| `index.md` | file | TODO | |
-| `netlify.md` | file | TODO | |
-| `remote-theme-checklist.md` | file | TODO | |
+| `index.md` | file | Deployment topic landing page | |
+| `*.md` | pattern | One doc page per deployment target or concern (GitHub Pages, Netlify, custom domain, build overlay) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New deployment doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

@@ -5,20 +5,15 @@ coverage: listed
 
 # SCHEMA — technology
 
-> TODO: one sentence — what this directory is for.
+> Technology category — AI adoption and emerging-tech posts.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `2000-01-01-index.md` | file | TODO | |
-| `2025-01-25-ai-tools-productivity.md` | file | TODO | |
-| `2026-04-07-ai-adoption-from-awareness-to-action.md` | file | TODO | |
-| `2026-04-07-ai-adoption-imperative-mid-market-manufacturers.md` | file | TODO | |
-| `2026-04-07-ai-adoption-map-function-by-function.md` | file | TODO | |
-| `2026-04-28-building-ai-ready-knowledge-base.md` | file | TODO | |
-| `2026-04-28-edge-ai-practical-patterns.md` | file | TODO | |
+| `2000-01-01-index.md` | file | Category landing page (epoch-dated so it never tops recent-post lists) | |
+| `2???-??-??-*.md` | pattern | Dated technology posts (YYYY-MM-DD-slug.md) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New technology post → `YYYY-MM-DD-slug.md` here.

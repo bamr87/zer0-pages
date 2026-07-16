@@ -5,16 +5,15 @@ coverage: listed
 
 # SCHEMA — quickstart
 
-> TODO: one sentence — what this directory is for.
+> Fastest-path setup guides for standing up a site on the theme.
 
 ## Structure
 
 | entry | kind | purpose | rules |
 |---|---|---|---|
-| `bare-minimum.md` | file | TODO | |
-| `fork-and-deploy.md` | file | TODO | |
-| `index.md` | file | TODO | |
+| `index.md` | file | Quickstart topic landing page | |
+| `*.md` | pattern | One doc page per setup path (bare minimum, fork-and-deploy) | |
 
 ## Placement
 
-- TODO: route common additions, or delete this section.
+- New quickstart doc page → a kebab-case `.md` file here, linked from `index.md` and `_data/navigation/docs.yml`.

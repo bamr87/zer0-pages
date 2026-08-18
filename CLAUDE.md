@@ -29,7 +29,7 @@ zer0-pages/
 ├── _config.yml               Jekyll config (source: pages, destination: _site)
 ├── .theme-overrides.yml      declares the two intentional theme-partial forks
 │                             (read by the theme's scripts/bin/audit-consumer)
-├── Gemfile                   Jekyll 4 + jekyll-theme-zer0 (~> 1.25) + plugins
+├── Gemfile                   Jekyll 4 + jekyll-theme-zer0 (unconstrained) + plugins
 ├── tests/                    unit tests for the bridge + graph index (minitest)
 ├── .github/workflows/        pages.yml       build + deploy to GitHub Pages
 │                             ci.yml          thin caller of the shared
@@ -53,7 +53,7 @@ wikilinks, callouts, and Dataview fences to HTML during the build (source files 
 
 ## Theme
 
-The site's UI is the **zer0-mistakes** theme, consumed as the published gem `jekyll-theme-zer0` (Gemfile constraint `~> 1.25`; `Gemfile.lock` currently resolves **1.28.0**). Layouts, includes, and vendored Bootstrap 5 come from the gem — the repo has **no local `_layouts/`**; every layout name (`default`, `article`, `note`, `section`, ...) resolves straight into the gem. The repo keeps exactly two local include overrides in `pages/_includes/`, declared in `.theme-overrides.yml` at the repo root so the theme's `scripts/bin/audit-consumer` classifies them as intentional rather than drift.
+The site's UI is the **zer0-mistakes** theme, consumed as the published gem `jekyll-theme-zer0`. The Gemfile carries **no version constraint** — fleet policy is that every site tracks the latest theme, so a theme fix arrives on the next `bundle update jekyll-theme-zer0` rather than waiting on a bump PR. `Gemfile.lock` is committed and currently resolves **1.28.0**; the lock, not a constraint, is what makes a build reproducible. The trade is explicit: an upstream regression arrives as soon as you update, so theme bugs go **upstream** rather than getting pinned around. Layouts, includes, and vendored Bootstrap 5 come from the gem — the repo has **no local `_layouts/`**; every layout name (`default`, `article`, `note`, `section`, ...) resolves straight into the gem. The repo keeps exactly two local include overrides in `pages/_includes/`, declared in `.theme-overrides.yml` at the repo root so the theme's `scripts/bin/audit-consumer` classifies them as intentional rather than drift.
 
 **Both of the bugs these forks were originally cut for are fixed upstream.** `bamr87/zer0-mistakes#293` (double `relative_url` on `preview_path`) and `#294` (`OBSIDIAN_WIKI_INDEX_URL` global-name mismatch) both shipped in theme **v1.26.0** (2026-07-07) — see that release's entries in the theme's `CHANGELOG.md`. An earlier version of this section claimed the opposite (that both were "still present upstream as of gem v1.26.0"); that was backwards. The forks are still kept, but for the reasons below — not for those two bugs.
 
@@ -69,7 +69,7 @@ every data file the theme reads lives in `pages/_data/`: site navigation in `pag
 - **The theme repo's own `obsidian_links.rb` is intentionally NOT used**: plugins
 never load from theme gems, and it resolves wikilinks by title while this vault's links are path-qualified — copying it in would double-convert. The bridge in `pages/_plugins/` is the sole Obsidian→HTML converter.
 - **Local theme development** (tip): to hack on the theme, temporarily point the
-Gemfile at the local checkout — `gem "jekyll-theme-zer0", path: "../github/zer0-mistakes"` — but the *committed* Gemfile MUST reference the published gem.
+Gemfile at the local checkout — `gem "jekyll-theme-zer0", path: "../github/zer0-mistakes"` — but the *committed* Gemfile MUST reference the published gem, unconstrained. Never re-add a version constraint to dodge an upstream bug; fix it in `bamr87/zer0-mistakes` and pick up the release.
 
 ## Obsidian graph UI
 

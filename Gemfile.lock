@@ -179,7 +179,7 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-theme-zer0 (~> 1.25)
+  jekyll-theme-zer0
   logger
   webrick (~> 1.8)
   zer0-image-generator (~> 0.2)

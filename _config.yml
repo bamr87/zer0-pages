@@ -129,7 +129,7 @@ nanobar:
 preview_images:
   enabled: true
   provider: openai
-  collections: [posts, docs, notes]   # content collections only — no MOC dashboards
+  collections: [posts, docs, notes, kb]   # content collections only — no MOC dashboards
 
 ## Collections #################################################################
 
@@ -145,6 +145,11 @@ collections:
   moc:
     output: true
     permalink: "/moc/:path/"
+  # Standalone knowledge bases, one folder each (pages/_kb/<name>/) — kept apart
+  # from docs/posts/notes and the wiki. See pages/_kb/SCHEMA.md.
+  kb:
+    output: true
+    permalink: "/kb/:path/"
 
 defaults:
   # Everything: never run Liquid over content; fall back to the theme's base
@@ -179,6 +184,24 @@ defaults:
       path: "wiki"
     values:
       layout: default
+  # Knowledge-base articles show their banner as a hero, as the 2005 site did;
+  # the article layout still guards on page.preview, so pages without one are unchanged.
+  - scope:
+      path: ""
+      type: kb
+    values:
+      show_hero: true
+  # Each knowledge base gets its own sidebar (pages/_data/navigation/kb-<name>.yml).
+  - scope:
+      path: "_kb/1987"
+    values:
+      sidebar:
+        nav: kb-1987
+  - scope:
+      path: "_kb/2005"
+    values:
+      sidebar:
+        nav: kb-2005
   # jekyll-sitemap/jekyll-feed synthesise these pages from Liquid templates;
   # they must escape the global render_with_liquid: false or they ship raw
   # Liquid. Higher-specificity path scopes placed AFTER the catch-all win.

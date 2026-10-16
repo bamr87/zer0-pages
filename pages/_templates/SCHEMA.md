@@ -14,6 +14,7 @@ coverage: listed
 | `comparison.md` | file | Template for wiki comparison pages (X vs Y trade-offs) | |
 | `concept.md` | file | Template for wiki concept pages (ideas, methodologies) | |
 | `entity.md` | file | Template for wiki entity pages (orgs, tools, projects, standards) | |
+| `kb-topic.md` | file | Template for a knowledge-base article (`_kb/<name>/<category>/<slug>.md`) | |
 | `question.md` | file | Template for wiki open-question pages | |
 | `source.md` | file | Template for wiki source-summary pages | |
 

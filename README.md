@@ -29,7 +29,7 @@ Beyond showcasing the theme, zer0-pages' declared purpose is to act as a **secon
 - **`claude-obsidian/`** — git submodule; the content engine. Its skills read sources,
   synthesize knowledge, and file structured notes into the vault.
 - **`pages/`** — the Obsidian vault *and* the Jekyll source. Three content collections
-(`_docs/`, `_posts/`, `_notes/`), Maps of Content (`_moc/`), a growing `wiki/` knowledge base, plus the bridge plugins, the theme's data files (`_data/` — navigation, UI text, authors; theme gems can't ship these), and two local include overrides kept for site-specific reasons (see `.theme-overrides.yml`), not for theme bugs — both bugs they were originally cut for shipped fixed in v1.26.0. Everything else — layouts, includes, vendored Bootstrap 5 — comes from the `jekyll-theme-zer0` gem, which the Gemfile deliberately leaves unconstrained so the site tracks the latest theme (`Gemfile.lock` is what pins a build).
+(`_docs/`, `_posts/`, `_notes/`), standalone knowledge bases under `_kb/` (see below), Maps of Content (`_moc/`), a growing `wiki/` knowledge base, plus the bridge plugins, the theme's data files (`_data/` — navigation, UI text, authors; theme gems can't ship these), and two local include overrides kept for site-specific reasons (see `.theme-overrides.yml`), not for theme bugs — both bugs they were originally cut for shipped fixed in v1.26.0. Everything else — layouts, includes, vendored Bootstrap 5 — comes from the `jekyll-theme-zer0` gem, which the Gemfile deliberately leaves unconstrained so the site tracks the latest theme (`Gemfile.lock` is what pins a build).
 - **`.github/workflows/pages.yml`** — builds and deploys on every push to `main`.
 
 ## Quickstart
@@ -48,6 +48,10 @@ deployment and set **Source: GitHub Actions**. Skipping this makes the first dep
 `jekyll-theme-zer0` theme, and the Obsidian bridge plugins, and deploys it to [bamr87.github.io/zer0-pages](https://bamr87.github.io/zer0-pages/).
 
 To build locally instead: `bundle install && bundle exec jekyll build` (Ruby 3.x recommended; CI uses 3.3). Unit tests run on plain system Ruby: `ruby -Ipages/_plugins tests/test_obsidian_bridge.rb` (bridge) and `ruby -Ipages/_plugins tests/test_graph_index.rb` (graph index).
+
+## Knowledge bases
+
+zer0-pages also publishes standalone knowledge bases at [/kb/](https://bamr87.github.io/zer0-pages/kb/), each about one subject and kept apart from the vault's own docs, posts and wiki: **[1987](https://bamr87.github.io/zer0-pages/kb/1987/)** (26 articles, formerly [bamr87/1987](https://github.com/bamr87/1987)) and **[2005](https://bamr87.github.io/zer0-pages/kb/2005/)** (75 articles, formerly [year-of-ai/2005](https://github.com/year-of-ai/2005)). Each has a home page with a curated table of notable events, a timeline, category pages, and its own sidebar. Both were merged with their git history. Add an article from `pages/_templates/kb-topic.md`; [CLAUDE.md](CLAUDE.md#knowledge-bases-pages_kb) has the rules.
 
 ## Graph view
 

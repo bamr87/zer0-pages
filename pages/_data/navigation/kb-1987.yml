@@ -1,0 +1,33 @@
+# Sidebar for the 1987 knowledge base (pages/_kb/1987/).
+# Used by: every page under pages/_kb/1987/, via the `_kb/1987` scope in
+#          _config.yml defaults (sidebar: nav: kb-1987).
+
+- title: "1987"
+  icon: bi-calendar3
+  url: /kb/1987/
+  expanded: true
+  children:
+    - title: Home
+      url: /kb/1987/
+    - title: Timeline
+      url: /kb/1987/timeline/
+
+- title: Categories
+  icon: bi-folder2-open
+  url: /kb/1987/
+  expanded: true
+  children:
+    - title: History & Politics
+      url: /kb/1987/history-politics/
+    - title: Science & Technology
+      url: /kb/1987/science-technology/
+    - title: Arts & Culture
+      url: /kb/1987/arts-culture/
+    - title: Society & Economics
+      url: /kb/1987/society-economics/
+    - title: People
+      url: /kb/1987/people/
+
+- title: All knowledge bases
+  icon: bi-archive
+  url: /kb/

@@ -1,10 +1,15 @@
 ---
-title: "1987 World Series"
+title: 1987 World Series
+type: topic
+kb: '1987'
+category: Society & Economics
 date: 1987-10-17
-category: "Society & Economics"
+description: The Minnesota Twins defeat the St. Louis Cardinals 4–3 in the first World Series played entirely indoors, with the home team winning all seven games.
+layout: article
+permalink: /kb/1987/society-economics/world-series-1987/
+aliases:
+- /kb/1987/society-economics/world-series-1987/
 ---
-
-# 1987 World Series
 
 **Category**: Society & Economics **Key figures**: Frank Viola (Twins pitcher, World Series MVP), Dan Gladden (Twins outfielder), Kent Hrbek (Twins first baseman), Kirby Puckett (Twins outfielder), Tom Kelly (Twins manager), Whitey Herzog (Cardinals manager)
 
@@ -31,11 +36,9 @@ For Minnesota, the championship carried deep civic resonance. The Twins had spen
 - [1987 World Series — Wikipedia](https://en.wikipedia.org/wiki/1987_World_Series)
 - [1987 World Series — Baseball Almanac](https://www.baseball-almanac.com/ws/yr1987ws.shtml)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Black Monday (October 19, 1987)](black-monday.md) — stock market crash that occurred just two days after the World Series began, dominating U.S. economic news in October 1987.
-- [ACT UP Founded (March 12, 1987)](act-up-founding.md) — another major Society & Economics landmark of 1987.
-- [FDA Approves Prozac (December 29, 1987)](prozac-fda-approval.md) — third Society & Economics milestone of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — stock market crash that occurred just two days after the World Series began, dominating U.S. economic news in October 1987.
+- [[_kb/1987/society-economics/act-up-founding|ACT UP Founded (March 12, 1987)]] — another major Society & Economics landmark of 1987.
+- [[_kb/1987/society-economics/prozac-fda-approval|FDA Approves Prozac (December 29, 1987)]] — third Society & Economics milestone of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

@@ -1,10 +1,15 @@
 ---
-title: "Toni Morrison's Beloved Published (September 16, 1987)"
+title: Toni Morrison's Beloved Published (September 16, 1987)
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-09-16
-category: "Arts & Culture"
+description: Morrison's fifth novel, published September 16, 1987, draws on the true story of Margaret Garner and wins the 1988 Pulitzer Prize for Fiction, later ranked the best American fiction from 1981–2006.
+layout: article
+permalink: /kb/1987/arts-culture/beloved/
+aliases:
+- /kb/1987/arts-culture/beloved/
 ---
-
-# Toni Morrison's *Beloved*
 
 **Category**: Arts & Culture **Key figures**: Toni Morrison (author), Margaret Garner (historical basis), Jonathan Demme (director, 1998 film adaptation), Oprah Winfrey (producer and star, 1998 film adaptation)
 
@@ -33,13 +38,11 @@ The novel's publication in 1987 arrived at a moment of renewed national reckonin
 - [Beloved (novel) — Wikipedia](https://en.wikipedia.org/wiki/Beloved_(novel))
 - [Beloved — Encyclopædia Britannica](https://www.britannica.com/topic/Beloved-novel-by-Morrison)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)](aretha-franklin-hof.md) — another major Arts & Culture milestone of 1987.
-- [U2's *The Joshua Tree* (March 9, 1987)](the-joshua-tree.md) — another landmark work released in 1987.
-- [*Sign 'O' the Times* (Prince, March 31, 1987)](sign-o-the-times.md) — another Arts & Culture landmark of 1987.
-- [Michael Jackson's *Bad* (August 31, 1987)](michael-jackson-bad.md) — another major cultural release of 1987.
-- [*Full Metal Jacket* (June 26, 1987)](full-metal-jacket.md) — another defining Arts & Culture release of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/aretha-franklin-hof|Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)]] — another major Arts & Culture milestone of 1987.
+- [[_kb/1987/arts-culture/the-joshua-tree|U2's *The Joshua Tree* (March 9, 1987)]] — another landmark work released in 1987.
+- [[_kb/1987/arts-culture/sign-o-the-times|*Sign 'O' the Times* (Prince, March 31, 1987)]] — another Arts & Culture landmark of 1987.
+- [[_kb/1987/arts-culture/michael-jackson-bad|Michael Jackson's *Bad* (August 31, 1987)]] — another major cultural release of 1987.
+- [[_kb/1987/arts-culture/full-metal-jacket|*Full Metal Jacket* (June 26, 1987)]] — another defining Arts & Culture release of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

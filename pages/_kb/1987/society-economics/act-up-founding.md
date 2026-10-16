@@ -1,10 +1,15 @@
 ---
-title: "ACT UP Founding (March 12, 1987)"
+title: ACT UP Founding (March 12, 1987)
+type: topic
+kb: '1987'
+category: Society & Economics
 date: 1987-03-12
-category: "Society & Economics"
+description: The AIDS Coalition to Unleash Power is established in New York City, launching a direct-action movement that transforms U.S. AIDS policy and FDA drug-approval processes.
+layout: article
+permalink: /kb/1987/society-economics/act-up-founding/
+aliases:
+- /kb/1987/society-economics/act-up-founding/
 ---
-
-# ACT UP Founding
 
 **Category**: Society & Economics **Key figures**: Larry Kramer (playwright, initiating organizer), Douglas Crimp (cultural theorist), Maria Maggenti, Gregg Bordowitz
 
@@ -27,14 +32,12 @@ Over a sustained campaign, ACT UP also forced a change to the Centers for Diseas
 - [ACT UP — Wikipedia](https://en.wikipedia.org/wiki/ACT_UP)
 - [ACT UP — Encyclopædia Britannica](https://www.britannica.com/topic/ACT-UP)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [FDA Approves AZT (March 20, 1987)](../science-technology/azt-fda-approval.md) — the FDA approved the first AIDS drug eight days after ACT UP was founded; activists immediately targeted its $10,000/year price.
-- [Fox Broadcasting Company Primetime Launch (April 5, 1987)](fox-broadcasting.md) — another major media/society development of spring 1987, launching the fourth U.S. broadcast network.
-- [FDA Approves Prozac (December 29, 1987)](prozac-fda-approval.md) — another major 1987 development in U.S. health policy.
-- [Black Monday (October 19, 1987)](black-monday.md) — the defining economic shock of the same year.
-- [1987 World Series (October 17–25, 1987)](world-series-1987.md) — another Society & Economics landmark of October 1987.
-- [Sign 'O' the Times (Prince, 1987)](../arts-culture/sign-o-the-times.md) — Prince's album that addressed the AIDS crisis directly in its title track.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/science-technology/azt-fda-approval|FDA Approves AZT (March 20, 1987)]] — the FDA approved the first AIDS drug eight days after ACT UP was founded; activists immediately targeted its $10,000/year price.
+- [[_kb/1987/society-economics/fox-broadcasting|Fox Broadcasting Company Primetime Launch (April 5, 1987)]] — another major media/society development of spring 1987, launching the fourth U.S. broadcast network.
+- [[_kb/1987/society-economics/prozac-fda-approval|FDA Approves Prozac (December 29, 1987)]] — another major 1987 development in U.S. health policy.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the defining economic shock of the same year.
+- [[_kb/1987/society-economics/world-series-1987|1987 World Series (October 17–25, 1987)]] — another Society & Economics landmark of October 1987.
+- [[_kb/1987/arts-culture/sign-o-the-times|Sign 'O' the Times (Prince, 1987)]] — Prince's album that addressed the AIDS crisis directly in its title track.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

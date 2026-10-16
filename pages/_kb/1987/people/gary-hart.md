@@ -1,10 +1,15 @@
 ---
-title: "Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)"
+title: Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)
+type: topic
+kb: '1987'
+category: People
 date: 1987-05-08
-category: "People"
+description: U.S. Senator and Democratic frontrunner suspends his presidential campaign after a scandal involving model Donna Rice, permanently transforming the media's scrutiny of candidates' private lives.
+layout: article
+permalink: /kb/1987/people/gary-hart/
+aliases:
+- /kb/1987/people/gary-hart/
 ---
-
-# Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)
 
 **Category**: People **Key figures**: Gary Hart (Democratic candidate), Donna Rice (model and actress), Tom Fiedler (Miami Herald politics editor), Lee Hart (Gary Hart's wife), Michael Dukakis (eventual Democratic nominee)
 
@@ -33,12 +38,10 @@ Hart's collapse also left the Democratic Party scrambling for a frontrunner and 
 - [Gary Hart 1988 presidential campaign — Wikipedia](https://en.wikipedia.org/wiki/Gary_Hart_1988_presidential_campaign)
 - [Gary Hart — Encyclopædia Britannica](https://www.britannica.com/biography/Gary-Hart)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Margaret Thatcher's Third General Election Victory (June 11, 1987)](margaret-thatcher.md) — another 1987 political watershed reshaping Western democratic politics.
-- [Mathias Rust — Flight to Red Square (May 28, 1987)](mathias-rust.md) — another May 1987 People entry, where a private individual upended a superpower's defenses.
-- [Klaus Barbie — Convicted (July 4, 1987)](klaus-barbie.md) — another 1987 People entry involving political accountability.
-- [Rudolf Hess (death, August 17, 1987)](rudolf-hess.md) — another notable 1987 People entry.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/people/margaret-thatcher|Margaret Thatcher's Third General Election Victory (June 11, 1987)]] — another 1987 political watershed reshaping Western democratic politics.
+- [[_kb/1987/people/mathias-rust|Mathias Rust — Flight to Red Square (May 28, 1987)]] — another May 1987 People entry, where a private individual upended a superpower's defenses.
+- [[_kb/1987/people/klaus-barbie|Klaus Barbie — Convicted (July 4, 1987)]] — another 1987 People entry involving political accountability.
+- [[_kb/1987/people/rudolf-hess|Rudolf Hess (death, August 17, 1987)]] — another notable 1987 People entry.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

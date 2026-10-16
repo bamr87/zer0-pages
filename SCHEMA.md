@@ -21,6 +21,7 @@ coverage: listed
 | `CLAUDE.md` | file | Claude Code guidance for working in this repo (architecture, workflows, conventions) | |
 | `Gemfile` | file | Ruby dependencies — Jekyll 4.3 plus the jekyll-theme-zer0 gem and Jekyll plugins | |
 | `Gemfile.lock` | file | Locked gem versions for reproducible builds | |
+| `LICENSE` | file | MIT license for the site and its content | |
 | `PRD.md` | file | Product requirements document — goals, architecture decisions, and roadmap for zer0-pages | |
 | `README.md` | file | Project overview — author/build/serve architecture, quickstart, authoring workflow | |
 | `_config.yml` | file | Jekyll configuration — `source: pages`, theme, collections, bridge and preview-image settings | |

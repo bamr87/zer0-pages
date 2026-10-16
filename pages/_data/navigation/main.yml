@@ -40,6 +40,15 @@
   icon: bi-diagram-3
   url: /wiki/
 
+- title: Knowledge
+  icon: bi-archive
+  url: /kb/
+  children:
+    - title: "1987"
+      url: /kb/1987/
+    - title: "2005"
+      url: /kb/2005/
+
 - title: Graph
   icon: bi-share
   url: /docs/obsidian/graph/

@@ -1,10 +1,15 @@
 ---
-title: "Montreal Protocol (September 16, 1987)"
+title: Montreal Protocol (September 16, 1987)
+type: topic
+kb: '1987'
+category: History & Politics
 date: 1987-09-16
-category: "History & Politics"
+description: 46 nations adopt the first global environmental treaty, setting binding schedules to phase out ozone-depleting CFCs and halons.
+layout: article
+permalink: /kb/1987/history-politics/montreal-protocol/
+aliases:
+- /kb/1987/history-politics/montreal-protocol/
 ---
-
-# Montreal Protocol (September 16, 1987)
 
 **Category**: History & Politics **Key figures**: United Nations Environment Programme (UNEP), Mostafa Kamal Tolba (UNEP Executive Director)
 
@@ -27,11 +32,9 @@ Implementation produced a clear scientific success: the depletion of stratospher
 - [Montreal Protocol — Wikipedia](https://en.wikipedia.org/wiki/Montreal_Protocol)
 - [Montreal Protocol — Encyclopaedia Britannica](https://www.britannica.com/event/Montreal-Protocol)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [INF Treaty (December 8, 1987)](inf-treaty.md) — the other landmark 1987 multilateral agreement, in arms control rather than the environment.
-- [Reagan's "Tear Down This Wall" Speech (June 12, 1987)](reagan-berlin-speech.md) — Reagan's public challenge to the Soviet bloc, part of the same year's wave of diplomatic pressure.
-- [Supernova 1987A](../science-technology/supernova-1987a.md) — a 1987 scientific milestone in the natural sciences.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — the other landmark 1987 multilateral agreement, in arms control rather than the environment.
+- [[_kb/1987/history-politics/reagan-berlin-speech|Reagan's "Tear Down This Wall" Speech (June 12, 1987)]] — Reagan's public challenge to the Soviet bloc, part of the same year's wave of diplomatic pressure.
+- [[_kb/1987/science-technology/supernova-1987a|Supernova 1987A]] — a 1987 scientific milestone in the natural sciences.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

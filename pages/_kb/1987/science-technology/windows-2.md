@@ -1,10 +1,15 @@
 ---
-title: "Microsoft Windows 2.0 (December 9, 1987)"
+title: Microsoft Windows 2.0 (December 9, 1987)
+type: topic
+kb: '1987'
+category: Science & Technology
 date: 1987-12-09
-category: "Science & Technology"
+description: Microsoft's second graphical environment introduces overlapping windows, desktop icons, and a protected-mode Windows/386 variant, triggering the landmark Apple v. Microsoft "look and feel" lawsuit.
+layout: article
+permalink: /kb/1987/science-technology/windows-2/
+aliases:
+- /kb/1987/science-technology/windows-2/
 ---
-
-# Microsoft Windows 2.0 (December 9, 1987)
 
 **Category**: Science & Technology **Key figures**: Bill Gates (Microsoft co-founder and CEO), Steve Ballmer (Microsoft executive), Steve Jobs (Apple CEO, plaintiff in subsequent lawsuit)
 
@@ -27,12 +32,10 @@ In the broader context of 1987, Windows 2.0's release reflected a pivotal transi
 - [Windows 2.0 — Wikipedia](https://en.wikipedia.org/wiki/Windows_2.0)
 - [Windows 2.0 Released — This Day in Tech History](https://thisdayintechhistory.com/12/09/windows-2-0-released/)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [IBM PS/2 Launch (April 2, 1987)](ibm-ps2.md) — IBM's concurrent hardware push that reshaped the PC industry in the same year.
-- [DNA Fingerprinting in Criminal Court (November 1987)](dna-fingerprinting.md) — another landmark Science & Technology milestone of 1987.
-- [Supernova 1987A (February 23, 1987)](supernova-1987a.md) — a major scientific event of the same year.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the economic backdrop against which Windows 2.0 launched.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/science-technology/ibm-ps2|IBM PS/2 Launch (April 2, 1987)]] — IBM's concurrent hardware push that reshaped the PC industry in the same year.
+- [[_kb/1987/science-technology/dna-fingerprinting|DNA Fingerprinting in Criminal Court (November 1987)]] — another landmark Science & Technology milestone of 1987.
+- [[_kb/1987/science-technology/supernova-1987a|Supernova 1987A (February 23, 1987)]] — a major scientific event of the same year.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the economic backdrop against which Windows 2.0 launched.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

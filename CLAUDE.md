@@ -11,6 +11,8 @@ zer0-pages/
 │                             Never modify: it is an upstream submodule.
 ├── pages/                    VAULT + JEKYLL SOURCE (open this dir in Obsidian)
 │   ├── _docs/ _posts/ _notes/    the three content collections
+│   ├── _kb/                  standalone knowledge bases (1987/, 2005/) — kept
+│   │                         apart from the collections above and the wiki
 │   ├── _moc/                 Maps of Content — Home / Docs / Posts / Notes
 │   ├── _templates/           Obsidian note templates (excluded from build)
 │   ├── .raw/                 immutable ingest drop zone (excluded from build)
@@ -40,7 +42,18 @@ zer0-pages/
 └── PRD.md                    product requirements (vision)
 ```
 
-Content scope is deliberately narrow: **`_docs/`, `_posts/`, and `_notes/` only**, plus their MOC dashboards and the index pages at the vault root (`index.md`, `posts.md`, `notes.md`, `archives.md`, `categories.md`, `tags.md`). Do not add new collections without updating this contract.
+Content scope is deliberately narrow: **`_docs/`, `_posts/`, and `_notes/`**, plus their MOC dashboards and the index pages at the vault root (`index.md`, `posts.md`, `notes.md`, `archives.md`, `categories.md`, `tags.md`), and the **`_kb/` knowledge bases** below. Do not add new collections without updating this contract.
+
+## Knowledge bases (`pages/_kb/`)
+
+The `kb` collection holds **standalone knowledge bases**, one folder each, published under `/kb/<name>/`: today **1987** and **2005**. They were separate repos (bamr87/1987 and year-of-ai/2005) and were merged in with their git history: each arrived as a subtree merge whose second parent is the old repo's `main`, so `git log <merge>^2` shows its commits, under the old paths. (`git log --grep 'merge bamr87/1987'` and `--grep 'merge year-of-ai/2005'` find the merges.) Each is its own subject, not part of the zer0-mistakes second brain: do not ingest them into `wiki/`, and do not cross-link them into `_docs/`/`_posts/`/`_notes/`. Each has the same shape:
+
+- `index.md`: the KB home (`type: kb`). Its "Notable Events" table and `timeline.md` are **curated by hand**; the topic tables are Dataview.
+- `<category>/index.md`: one Dataview table per category (`type: page`), so a new article shows up without editing any index.
+- `<category>/<slug>.md`: one article per topic. Front matter: `title`, `type: topic`, `kb: "<name>"` (Dataview groups by it; config defaults are invisible to Obsidian), `category`, `date`, `description`, `layout: article`, and `permalink: /kb/<name>/<category>/<slug>/` mirrored in `aliases`. Start from `pages/_templates/kb-topic.md`. 2005 articles also keep `legacy_url`, their old year-of-ai.github.io address. Wikilinks stay inside the KB (`[[_kb/<name>/...]]`).
+- Sidebar: `pages/_data/navigation/kb-<name>.yml`, applied by a `_kb/<name>` path scope under `defaults:`. Banners: `pages/assets/images/kb/<name>/` (`preview: /images/kb/<name>/<file>`); the collection opts into the article hero (`show_hero`).
+
+To add a knowledge base, follow `pages/_kb/SCHEMA.md`. The 1987 repo's self-growing agent framework (`/grow`, seed.md, ROADMAP.md) was not carried over; it remains in that repo's history. Grow a KB the way the rest of the vault grows: the claude-obsidian skills or a human, under the rules above.
 
 ## Content flow
 
@@ -87,7 +100,7 @@ core `pages/_plugins/obsidian/graph_index.rb`) walks the same document pool as t
 ## Dual-compatibility rules — ALL new content
 
 - **Frontmatter** (flat YAML): every file must carry `title`, `type`, and `description`.
-Give each page a `permalink:` and mirror it in `aliases:` (aliases carry old/canonical URLs so wikilinks and historic links resolve). Collections also apply pattern permalinks (`/docs/:path/`, `/notes/:path/`) — an explicit `permalink:` in frontmatter always wins. **`_posts/` is the exception**: it is Jekyll's built-in posts collection, not a custom one, so it has no entry under `collections:` in `_config.yml` and instead uses the sitewide `permalink: pretty` date-based scheme — individual post files do not need an explicit `permalink:`/`aliases:` pair unless their URL needs to diverge from that default (the seven `NNNN-01-01-index.md` category-index pages under `_posts/<category>/` are the diverging case, and do carry explicit permalinks).
+Give each page a `permalink:` and mirror it in `aliases:` (aliases carry old/canonical URLs so wikilinks and historic links resolve). Collections also apply pattern permalinks (`/docs/:path/`, `/notes/:path/`, `/kb/:path/`) — an explicit `permalink:` in frontmatter always wins. **`_posts/` is the exception**: it is Jekyll's built-in posts collection, not a custom one, so it has no entry under `collections:` in `_config.yml` and instead uses the sitewide `permalink: pretty` date-based scheme — individual post files do not need an explicit `permalink:`/`aliases:` pair unless their URL needs to diverge from that default (the seven `NNNN-01-01-index.md` category-index pages under `_posts/<category>/` are the diverging case, and do carry explicit permalinks).
 - **Wikilinks** are fine and preferred: `[[path/from/vault-root|Display]]` —
 path-qualified from the vault root, no `.md` extension. The bridge resolves them to URLs; unresolved links render as a flagged `<span>` (and as red nodes in the graph).
 - **Callouts**: both `> [!NOTE]` and `> [!note] Title` styles convert to Bootstrap

@@ -1,10 +1,15 @@
 ---
-title: "Fox Broadcasting Company Primetime Launch (April 5, 1987)"
+title: Fox Broadcasting Company Primetime Launch (April 5, 1987)
+type: topic
+kb: '1987'
+category: Society & Economics
 date: 1987-04-05
-category: "Society & Economics"
+description: Rupert Murdoch's Fox debuts *Married...with Children* and *The Tracey Ullman Show*, establishing the first successful fourth U.S. broadcast network since 1956 and targeting younger viewers the Big Three had underserved.
+layout: article
+permalink: /kb/1987/society-economics/fox-broadcasting/
+aliases:
+- /kb/1987/society-economics/fox-broadcasting/
 ---
-
-# Fox Broadcasting Company Primetime Launch
 
 **Category**: Society & Economics **Key figures**: Rupert Murdoch (Chairman, News Corporation), Barry Diller (Chairman and CEO, Fox, Inc.), Jamie Kellner (network president), Joan Rivers (host, The Late Show, 1986–1987), Ed O'Neill, Katey Sagal (Married...with Children), Tracey Ullman (The Tracey Ullman Show)
 
@@ -35,12 +40,10 @@ Fox's launch also had structural consequences for the industry. The FCC's 1993 r
 - [Fox Broadcasting Company — Wikipedia](https://en.wikipedia.org/wiki/Fox_Broadcasting_Company)
 - [Fox Broadcasting Company — Encyclopedia.com](https://www.encyclopedia.com/economics/economics-magazines/fox-broadcasting-company)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Black Monday (October 19, 1987)](black-monday.md) — the stock market crash that dominated U.S. economic news in October 1987.
-- [ACT UP Founded (March 12, 1987)](act-up-founding.md) — another major Society & Economics landmark of 1987.
-- [1987 World Series (October 17–25, 1987)](world-series-1987.md) — another major Society & Economics event of 1987.
-- [FDA Approves Prozac (December 29, 1987)](prozac-fda-approval.md) — another Society & Economics milestone of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the stock market crash that dominated U.S. economic news in October 1987.
+- [[_kb/1987/society-economics/act-up-founding|ACT UP Founded (March 12, 1987)]] — another major Society & Economics landmark of 1987.
+- [[_kb/1987/society-economics/world-series-1987|1987 World Series (October 17–25, 1987)]] — another major Society & Economics event of 1987.
+- [[_kb/1987/society-economics/prozac-fda-approval|FDA Approves Prozac (December 29, 1987)]] — another Society & Economics milestone of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

@@ -12,13 +12,15 @@ This directory is **both** the content source for the *zer0-mistakes* Jekyll the
 - `.html` pages were converted to Markdown.
 - Documentation that *teaches* Liquid (e.g. `_docs/liquid/`, `_docs/jekyll/`) keeps its Liquid intact inside code fences — those are examples, not directives.
 - The vault was later **slimmed to three collections** — `_docs/`, `_posts/`, `_notes/` — everything else (quests, quickstart, about, notebooks, misc loose pages) was removed; see `wiki/log.md`.
+- In 2026-10 the **`_kb/` knowledge bases** (1987 and 2005, formerly separate repos) were merged in as a fourth, deliberately separate collection; the root `../CLAUDE.md` has their rules.
 
 > **Jekyll note:** this vault **is** the Jekyll source (`../_config.yml` sets `source: pages`). Wikilinks, Dataview fences, and callouts are converted to HTML at build time by the bridge plugins in `_plugins/` — the **sole** Obsidian→HTML converter (the theme repo ships its own `obsidian_links.rb`, but plugins never load from theme gems and it resolves links by title, so copying it in would double-convert this vault's path-qualified links) — and source files are never rewritten. Content must stay **Liquid-free** (`render_with_liquid: false` is defaulted; `{% %}`/`{{ }}` would appear literally) — the one exception is `_docs/obsidian/graph.md`, which sets `render_with_liquid: true` for its single `{% include %}` line. Liquid otherwise lives only in `_includes/`; there is **no local `_layouts/`** — every layout resolves into the `jekyll-theme-zer0` gem. The pre-conversion Jekyll tree is backed up under `../.backups/pages-jekyll-*`. See the root `../CLAUDE.md` for the full dual-compatibility contract and theme details.
 
 ## Vault structure
 
 ```
-_docs/  _posts/  _notes/    content — the ONLY three collections
+_docs/  _posts/  _notes/    content — the three vault collections
+_kb/           standalone knowledge bases (1987/, 2005/) — separate subjects, see ../CLAUDE.md
 _moc/          Maps of Content — Dataview dashboards: Home, Docs, Posts, Notes
 _templates/    Obsidian note templates (concept/entity/source/question/comparison)
 .raw/          immutable source drop-zone for /wiki-ingest — never modified

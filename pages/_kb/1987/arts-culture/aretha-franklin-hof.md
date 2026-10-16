@@ -1,10 +1,15 @@
 ---
-title: "Aretha Franklin: First Woman Inducted into the Rock and Roll Hall of Fame (1987)"
+title: 'Aretha Franklin: First Woman Inducted into the Rock and Roll Hall of Fame (1987)'
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-01-21
-category: "Arts & Culture"
+description: On January 21, 1987, Aretha Franklin became the first woman inducted into the Rock and Roll Hall of Fame, at the ceremony in New York City.
+layout: article
+permalink: /kb/1987/arts-culture/aretha-franklin-hof/
+aliases:
+- /kb/1987/arts-culture/aretha-franklin-hof/
 ---
-
-# Aretha Franklin: First Woman in the Rock and Roll Hall of Fame
 
 **Category**: Arts & Culture **Key figures**: Aretha Franklin (inductee), Keith Richards (presenter), Cecil Franklin (brother; accepted award), Clive Davis (record executive; accepted award)
 
@@ -27,11 +32,9 @@ The milestone also drew sustained attention to structural gender disparities in 
 - [Aretha Franklin — Rock & Roll Hall of Fame](https://rockhall.com/inductees/aretha-franklin/)
 - [Rock and Roll Hall of Fame inducts first woman — HISTORY.com](https://www.history.com/this-day-in-history/january-3/rock-and-roll-hall-of-fame-inducts-first-woman)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Sign 'O' the Times (Prince, March 31, 1987)](sign-o-the-times.md) — another Arts & Culture landmark of 1987, Prince's acclaimed double album released the same year.
-- [Full Metal Jacket (June 26, 1987)](full-metal-jacket.md) — Stanley Kubrick's Vietnam War film, another major cultural event of 1987.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the defining economic event of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/sign-o-the-times|Sign 'O' the Times (Prince, March 31, 1987)]] — another Arts & Culture landmark of 1987, Prince's acclaimed double album released the same year.
+- [[_kb/1987/arts-culture/full-metal-jacket|Full Metal Jacket (June 26, 1987)]] — Stanley Kubrick's Vietnam War film, another major cultural event of 1987.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the defining economic event of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

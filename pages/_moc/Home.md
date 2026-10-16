@@ -12,6 +12,7 @@ This is the front door to the vault — a living map of everything inside. Start
 - [[_moc/Docs|Docs]] — reference material, guides, and how-tos.
 - [[_moc/Posts|Posts]] — articles, essays, and dispatches.
 - [[_moc/Notes|Notes]] — shorter thoughts and working notes.
+- [[_kb/index|Knowledge bases]] — standalone subjects with their own home, categories and timeline: [[_kb/1987/index|1987]] and [[_kb/2005/index|2005]].
 
 ## Find Your Way
 

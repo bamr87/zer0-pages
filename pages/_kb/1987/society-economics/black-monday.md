@@ -1,10 +1,15 @@
 ---
-title: "Black Monday (October 19, 1987)"
+title: Black Monday (October 19, 1987)
+type: topic
+kb: '1987'
+category: Society & Economics
 date: 1987-10-19
-category: "Society & Economics"
+description: Stock markets crash worldwide; the Dow Jones Industrial Average falls 22.6% in a single day, the largest one-day percentage drop in its history.
+layout: article
+permalink: /kb/1987/society-economics/black-monday/
+aliases:
+- /kb/1987/society-economics/black-monday/
 ---
-
-# Black Monday (October 19, 1987)
 
 **Category**: Society & Economics **Key figures**: Alan Greenspan (Federal Reserve Chairman), James Baker (US Treasury Secretary), Robert Shiller (economist), Ben Bernanke (economist)
 
@@ -27,12 +32,10 @@ The crash also effectively ended the Louvre Accord and shifted perceptions about
 - [Black Monday (1987) — Wikipedia](https://en.wikipedia.org/wiki/Black_Monday_(1987))
 - [Black Monday: The Stock Market Crash of 1987 — Federal Reserve History](https://www.federalreservehistory.org/essays/stock_market_crash_of_1987)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [ACT UP Founded (March 12, 1987)](act-up-founding.md) — another Society & Economics landmark of 1987, the founding of the AIDS direct-action movement.
-- [1987 World Series (October 17–25, 1987)](world-series-1987.md) — the championship series that began just two days before Black Monday dominated U.S. financial news.
-- [FDA Approves Prozac (December 29, 1987)](prozac-fda-approval.md) — another major Society & Economics event of 1987, reshaping healthcare rather than financial markets.
-- [INF Treaty (December 8, 1987)](../history-politics/inf-treaty.md) — the other defining global event of late 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/society-economics/act-up-founding|ACT UP Founded (March 12, 1987)]] — another Society & Economics landmark of 1987, the founding of the AIDS direct-action movement.
+- [[_kb/1987/society-economics/world-series-1987|1987 World Series (October 17–25, 1987)]] — the championship series that began just two days before Black Monday dominated U.S. financial news.
+- [[_kb/1987/society-economics/prozac-fda-approval|FDA Approves Prozac (December 29, 1987)]] — another major Society & Economics event of 1987, reshaping healthcare rather than financial markets.
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — the other defining global event of late 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

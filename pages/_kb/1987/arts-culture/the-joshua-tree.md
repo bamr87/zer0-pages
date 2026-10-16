@@ -1,10 +1,15 @@
 ---
-title: "U2's The Joshua Tree Released (March 9, 1987)"
+title: U2's The Joshua Tree Released (March 9, 1987)
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-03-09
-category: "Arts & Culture"
+description: Released March 9, 1987, U2's fifth studio album became Britain's fastest-selling record, topped charts in 20+ countries, and won the 1988 Grammy Album of the Year.
+layout: article
+permalink: /kb/1987/arts-culture/the-joshua-tree/
+aliases:
+- /kb/1987/arts-culture/the-joshua-tree/
 ---
-
-# U2's *The Joshua Tree*
 
 **Category**: Arts & Culture **Key figures**: Bono (vocals, lyrics), The Edge (guitar), Adam Clayton (bass), Larry Mullen Jr. (drums), Daniel Lanois (producer), Brian Eno (producer), Anton Corbijn (photographer, visual identity)
 
@@ -38,12 +43,10 @@ The album arrived at a specific cultural moment — the second Reagan term, the 
 - [The Joshua Tree — Encyclopædia Britannica](https://www.britannica.com/topic/The-Joshua-Tree)
 - [GRAMMY Rewind: U2 Win Their First-Ever GRAMMY For 'The Joshua Tree' In 1988 — Grammy.com](https://www.grammy.com/news/grammy-rewind-u2-win-their-first-ever-grammy-joshua-tree-1988)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [*Sign 'O' the Times* (Prince, March 31, 1987)](sign-o-the-times.md) — another landmark album released in 1987, just three weeks after *The Joshua Tree*.
-- [Michael Jackson's *Bad* (August 31, 1987)](michael-jackson-bad.md) — *Bad* was the Grammy Album of the Year runner-up that *The Joshua Tree* defeated in 1988.
-- [Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)](aretha-franklin-hof.md) — another major Arts & Culture milestone of 1987.
-- [*Full Metal Jacket* (June 26, 1987)](full-metal-jacket.md) — another defining cultural release of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/sign-o-the-times|*Sign 'O' the Times* (Prince, March 31, 1987)]] — another landmark album released in 1987, just three weeks after *The Joshua Tree*.
+- [[_kb/1987/arts-culture/michael-jackson-bad|Michael Jackson's *Bad* (August 31, 1987)]] — *Bad* was the Grammy Album of the Year runner-up that *The Joshua Tree* defeated in 1988.
+- [[_kb/1987/arts-culture/aretha-franklin-hof|Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)]] — another major Arts & Culture milestone of 1987.
+- [[_kb/1987/arts-culture/full-metal-jacket|*Full Metal Jacket* (June 26, 1987)]] — another defining cultural release of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

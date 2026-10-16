@@ -18,6 +18,7 @@ coverage: listed
 | `_data/` | dir | Live site + theme data — navigation, authors, UI text, skins (Jekyll never loads _data from theme gems) | |
 | `_docs/` | dir | Docs collection — topic-organized documentation published under /docs/ | |
 | `_includes/` | dir | Local include overrides for bugs/behaviour still present in the theme gem | |
+| `_kb/` | dir | Knowledge-base collection — standalone knowledge bases (1987, 2005), one folder each, published under /kb/ | |
 | `_moc/` | dir | Maps of Content collection — dashboard pages published under /moc/ | |
 | `_notes/` | dir | Notes collection — quick-reference cheatsheets published under /notes/ | |
 | `_plugins/` | dir | Obsidian→Jekyll bridge plugins (wikilinks, callouts, Dataview, graph index) | |
@@ -36,6 +37,6 @@ coverage: listed
 
 ## Placement
 
-- New content routes by type: post → `_posts/<category>/`, doc → `_docs/<topic>/`, cheatsheet → `_notes/`, wiki page → `wiki/`.
+- New content routes by type: post → `_posts/<category>/`, doc → `_docs/<topic>/`, cheatsheet → `_notes/`, wiki page → `wiki/`, knowledge-base article → `_kb/<name>/<category>/`.
 - New top-level page → `<name>.md` here with `permalink:` frontmatter; add it to `_data/navigation/main.yml` if it belongs in the navbar.
 - Navigation or theme data changes → `_data/` (this copy is live, not the theme gem's).

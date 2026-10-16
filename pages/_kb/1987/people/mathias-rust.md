@@ -1,10 +1,15 @@
 ---
-title: "Mathias Rust — Flight to Red Square (May 28, 1987)"
+title: Mathias Rust — Flight to Red Square (May 28, 1987)
+type: topic
+kb: '1987'
+category: People
 date: 1987-05-28
-category: "People"
+description: An 18-year-old West German amateur pilot flies a Cessna from Helsinki and lands beside the Kremlin, triggering the largest Soviet military purge since the 1930s.
+layout: article
+permalink: /kb/1987/people/mathias-rust/
+aliases:
+- /kb/1987/people/mathias-rust/
 ---
-
-# Mathias Rust — Flight to Red Square (May 28, 1987)
 
 **Category**: People **Key figures**: Mathias Rust (pilot), Mikhail Gorbachev (Soviet General Secretary), Marshal Sergei Sokolov (Soviet Defence Minister, dismissed), Chief Marshal Alexander Koldunov (Soviet Air Defence commander, dismissed)
 
@@ -33,13 +38,11 @@ Rust's flight also captured the popular imagination in both East and West: an un
 - [Mathias Rust — Wikipedia](https://en.wikipedia.org/wiki/Mathias_Rust)
 - [The Notorious Flight of Mathias Rust — Smithsonian Air & Space Magazine](https://www.smithsonianmag.com/air-space-magazine/the-notorious-flight-of-mathias-rust-7101888/)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)](gary-hart.md) — another May 1987 People entry in which a private act upended a major public institution.
-- [Margaret Thatcher's Third General Election Victory (June 11, 1987)](margaret-thatcher.md) — another notable Western political milestone of the same month.
-- [INF Treaty (December 8, 1987)](../history-politics/inf-treaty.md) — the arms-control breakthrough Reagan and Gorbachev signed six months after Rust's flight helped reshape Soviet military leadership.
-- ["Tear Down This Wall" speech (June 12, 1987)](../history-politics/reagan-berlin-speech.md) — another 1987 event at the Berlin frontier linking Reagan and Gorbachev.
-- [Rudolf Hess (death, August 17, 1987)](rudolf-hess.md) — another notable 1987 People entry.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/people/gary-hart|Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)]] — another May 1987 People entry in which a private act upended a major public institution.
+- [[_kb/1987/people/margaret-thatcher|Margaret Thatcher's Third General Election Victory (June 11, 1987)]] — another notable Western political milestone of the same month.
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — the arms-control breakthrough Reagan and Gorbachev signed six months after Rust's flight helped reshape Soviet military leadership.
+- [[_kb/1987/history-politics/reagan-berlin-speech|"Tear Down This Wall" speech (June 12, 1987)]] — another 1987 event at the Berlin frontier linking Reagan and Gorbachev.
+- [[_kb/1987/people/rudolf-hess|Rudolf Hess (death, August 17, 1987)]] — another notable 1987 People entry.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

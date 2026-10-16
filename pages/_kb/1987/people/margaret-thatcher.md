@@ -1,10 +1,15 @@
 ---
-title: "Margaret Thatcher's Third General Election Victory (June 11, 1987)"
+title: Margaret Thatcher's Third General Election Victory (June 11, 1987)
+type: topic
+kb: '1987'
+category: People
 date: 1987-06-11
-category: "People"
+description: Thatcher becomes the first British PM since 1820 to win three consecutive elections, securing a 102-seat majority; her third term ends with her resignation in November 1990.
+layout: article
+permalink: /kb/1987/people/margaret-thatcher/
+aliases:
+- /kb/1987/people/margaret-thatcher/
 ---
-
-# Margaret Thatcher's Third General Election Victory (June 11, 1987)
 
 **Category**: People **Key figures**: Margaret Thatcher (Prime Minister, Conservative leader), Neil Kinnock (Labour leader), David Steel (Liberal leader), David Owen (SDP leader), Diane Abbott, Paul Boateng, Bernie Grant (first Black MPs elected)
 
@@ -31,11 +36,9 @@ The 1987 election also illustrated a structural tension in British democracy: th
 - [1987 United Kingdom general election — Wikipedia](https://en.wikipedia.org/wiki/1987_United_Kingdom_general_election)
 - [Margaret Thatcher — Encyclopædia Britannica](https://www.britannica.com/biography/Margaret-Thatcher)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [INF Treaty signed (December 8, 1987)](../history-politics/inf-treaty.md) — Thatcher's third term began as Reagan–Gorbachev nuclear talks reached their conclusion.
-- [Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)](gary-hart.md) — another major 1987 political event reshaping Western democratic politics.
-- [Klaus Barbie — Convicted (July 4, 1987)](klaus-barbie.md) — another notable People entry from 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty signed (December 8, 1987)]] — Thatcher's third term began as Reagan–Gorbachev nuclear talks reached their conclusion.
+- [[_kb/1987/people/gary-hart|Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)]] — another major 1987 political event reshaping Western democratic politics.
+- [[_kb/1987/people/klaus-barbie|Klaus Barbie — Convicted (July 4, 1987)]] — another notable People entry from 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

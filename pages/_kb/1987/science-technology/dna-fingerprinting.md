@@ -1,10 +1,15 @@
 ---
-title: "DNA Fingerprinting Enters the Courtroom (1987)"
+title: DNA Fingerprinting Enters the Courtroom (1987)
+type: topic
+kb: '1987'
+category: Science & Technology
 date: 1987-11-13
-category: "Science & Technology"
+description: On November 13, 1987 Robert Melias became the first person in the world convicted using DNA evidence, opening a new era in forensic science.
+layout: article
+permalink: /kb/1987/science-technology/dna-fingerprinting/
+aliases:
+- /kb/1987/science-technology/dna-fingerprinting/
 ---
-
-# DNA Fingerprinting Enters the Courtroom
 
 **Category**: Science & Technology **Key figures**: Alec Jeffreys (inventor, University of Leicester), Robert Melias (first convict, UK), Tommie Lee Andrews (first US convict), Richard Buckland (first exoneree by DNA)
 
@@ -27,13 +32,11 @@ In the decades after 1987, DNA profiling became the gold standard of forensic id
 - [DNA profiling — Wikipedia](https://en.wikipedia.org/wiki/DNA_profiling)
 - [First use of DNA profiling in a criminal conviction — Guinness World Records](https://www.guinnessworldrecords.com/world-records/first-use-of-dna-profiling-in-a-criminal-conviction)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Supernova 1987A](supernova-1987a.md) — another Science & Technology landmark of 1987.
-- [FDA Approves AZT (March 20, 1987)](azt-fda-approval.md) — a third Science & Technology breakthrough of 1987: the first antiretroviral drug for HIV/AIDS.
-- [Microsoft Windows 2.0 (December 9, 1987)](windows-2.md) — the other major Science & Technology milestone of 1987.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the defining economic event of the same year.
-- [INF Treaty (December 8, 1987)](../history-politics/inf-treaty.md) — the landmark arms-control agreement of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/science-technology/supernova-1987a|Supernova 1987A]] — another Science & Technology landmark of 1987.
+- [[_kb/1987/science-technology/azt-fda-approval|FDA Approves AZT (March 20, 1987)]] — a third Science & Technology breakthrough of 1987: the first antiretroviral drug for HIV/AIDS.
+- [[_kb/1987/science-technology/windows-2|Microsoft Windows 2.0 (December 9, 1987)]] — the other major Science & Technology milestone of 1987.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the defining economic event of the same year.
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — the landmark arms-control agreement of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

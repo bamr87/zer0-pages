@@ -1,10 +1,15 @@
 ---
-title: "FDA Approves AZT for AIDS Treatment (March 20, 1987)"
+title: FDA Approves AZT for AIDS Treatment (March 20, 1987)
+type: topic
+kb: '1987'
+category: Science & Technology
 date: 1987-03-20
-category: "Science & Technology"
+description: On March 20, 1987, the FDA approved zidovudine (AZT/Retrovir), the first antiretroviral drug for HIV/AIDS, in the fastest drug-approval process in FDA history to that point.
+layout: article
+permalink: /kb/1987/science-technology/azt-fda-approval/
+aliases:
+- /kb/1987/science-technology/azt-fda-approval/
 ---
-
-# FDA Approves AZT for AIDS Treatment
 
 **Category**: Science & Technology **Key figures**: Jerome Horwitz (original synthesizer, Wayne State University), Samuel Broder, Hiroaki Mitsuya, Robert Yarchoan (NCI researchers), Janet Rideout (Burroughs Wellcome chemist), David Barry (Burroughs Wellcome research director)
 
@@ -38,13 +43,11 @@ Scientifically, AZT validated the NRTI class of antiretrovirals and established 
 - [AZT — Encyclopædia Britannica](https://www.britannica.com/science/AZT)
 - [AZT Treats People with AIDS — EBSCO Research Starters](https://www.ebsco.com/research-starters/social-sciences-and-humanities/azt-treats-people-aids)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Supernova 1987A (February 23, 1987)](supernova-1987a.md) — another Science & Technology landmark of 1987.
-- [DNA Fingerprinting in the Courtroom (November 1987)](dna-fingerprinting.md) — a third Science & Technology breakthrough of 1987.
-- [Microsoft Windows 2.0 (December 9, 1987)](windows-2.md) — major technology milestone of the same year.
-- [ACT UP Founded (March 12, 1987)](../society-economics/act-up-founding.md) — AIDS activist organization founded eight days before AZT approval.
-- [FDA Approves Prozac (December 29, 1987)](../society-economics/prozac-fda-approval.md) — the other landmark FDA drug approval of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/science-technology/supernova-1987a|Supernova 1987A (February 23, 1987)]] — another Science & Technology landmark of 1987.
+- [[_kb/1987/science-technology/dna-fingerprinting|DNA Fingerprinting in the Courtroom (November 1987)]] — a third Science & Technology breakthrough of 1987.
+- [[_kb/1987/science-technology/windows-2|Microsoft Windows 2.0 (December 9, 1987)]] — major technology milestone of the same year.
+- [[_kb/1987/society-economics/act-up-founding|ACT UP Founded (March 12, 1987)]] — AIDS activist organization founded eight days before AZT approval.
+- [[_kb/1987/society-economics/prozac-fda-approval|FDA Approves Prozac (December 29, 1987)]] — the other landmark FDA drug approval of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

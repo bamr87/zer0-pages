@@ -1,10 +1,15 @@
 ---
-title: "Michael Jackson's Bad Released (August 31, 1987)"
+title: Michael Jackson's Bad Released (August 31, 1987)
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-08-31
-category: "Arts & Culture"
+description: Jackson's seventh studio album, released August 31, 1987, becomes the first album in history to produce five Billboard Hot 100 number-one singles, selling over 35 million copies worldwide.
+layout: article
+permalink: /kb/1987/arts-culture/michael-jackson-bad/
+aliases:
+- /kb/1987/arts-culture/michael-jackson-bad/
 ---
-
-# Michael Jackson's *Bad*
 
 **Category**: Arts & Culture **Key figures**: Michael Jackson (artist, co-producer, songwriter), Quincy Jones (producer), Siedah Garrett (co-writer of "I Just Can't Stop Loving You"; featured vocalist), Martin Scorsese (director of the "Bad" short film), Walter Yetnikoff (Epic Records president)
 
@@ -33,13 +38,11 @@ The album also marks the peak of the three-album creative partnership between Ja
 - [Bad (album) — Wikipedia](https://en.wikipedia.org/wiki/Bad_(album))
 - [Michael Jackson's 'Bad': How It Became the First Album With Five Hot 100 No. 1s — Billboard](https://www.billboard.com/pro/michael-jackson-bad-hot-100-five-number-one-hits/)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [U2's *The Joshua Tree* (March 9, 1987)](the-joshua-tree.md) — *The Joshua Tree* won the 1988 Grammy Album of the Year, the award *Bad* was widely expected to contest.
-- [*Sign 'O' the Times* (Prince, March 31, 1987)](sign-o-the-times.md) — the other landmark pop album of 1987, released five months before *Bad*.
-- [*Beloved* by Toni Morrison (September 16, 1987)](beloved.md) — another landmark 1987 cultural work that reshaped its medium, published two weeks after *Bad*'s release.
-- [Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)](aretha-franklin-hof.md) — another major Arts & Culture milestone of 1987.
-- [*Full Metal Jacket* (June 26, 1987)](full-metal-jacket.md) — another defining cultural release of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/the-joshua-tree|U2's *The Joshua Tree* (March 9, 1987)]] — *The Joshua Tree* won the 1988 Grammy Album of the Year, the award *Bad* was widely expected to contest.
+- [[_kb/1987/arts-culture/sign-o-the-times|*Sign 'O' the Times* (Prince, March 31, 1987)]] — the other landmark pop album of 1987, released five months before *Bad*.
+- [[_kb/1987/arts-culture/beloved|*Beloved* by Toni Morrison (September 16, 1987)]] — another landmark 1987 cultural work that reshaped its medium, published two weeks after *Bad*'s release.
+- [[_kb/1987/arts-culture/aretha-franklin-hof|Aretha Franklin: First Woman in the Rock and Roll Hall of Fame (January 21, 1987)]] — another major Arts & Culture milestone of 1987.
+- [[_kb/1987/arts-culture/full-metal-jacket|*Full Metal Jacket* (June 26, 1987)]] — another defining cultural release of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

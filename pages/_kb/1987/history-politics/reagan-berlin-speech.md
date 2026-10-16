@@ -1,10 +1,15 @@
 ---
-title: "Reagan's 'Tear Down This Wall' Speech"
-date: "1987-06-12"
-category: "History & Politics"
+title: Reagan's 'Tear Down This Wall' Speech
+type: topic
+kb: '1987'
+category: History & Politics
+date: '1987-06-12'
+description: Reagan challenges Gorbachev at the Brandenburg Gate before ~45,000; "Mr. Gorbachev, tear down this wall!" becomes the defining phrase of Cold War resolution.
+layout: article
+permalink: /kb/1987/history-politics/reagan-berlin-speech/
+aliases:
+- /kb/1987/history-politics/reagan-berlin-speech/
 ---
-
-# Reagan's "Tear Down This Wall" Speech
 
 **Category:** History & Politics **Key figures:** Ronald Reagan (U.S. President), Peter Robinson (speechwriter), Mikhail Gorbachev (Soviet General Secretary)
 
@@ -18,14 +23,12 @@ The phrase was written by White House speechwriter Peter Robinson following a re
 
 The speech is regarded as one of Reagan's defining rhetorical moments and a key symbolic milestone in the latter Cold War. It intensified international pressure on the Soviet bloc's policy of division and reinforced the message conveyed by the INF Treaty signed later that same year. When the Berlin Wall fell on November 9, 1989 — less than two and a half years after the speech — the phrase "tear down this wall" became shorthand for the entire arc of Cold War resolution. The address has been cited by historians as emblematic of the power of public diplomacy and is regularly ranked among the greatest American presidential speeches.
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [INF Treaty (December 8, 1987)](inf-treaty.md) — Reagan and Gorbachev signed the INF Treaty just six months after the Brandenburg Gate speech, fulfilling the diplomatic pressure it symbolised.
-- [Iran-Contra Affair (1986–1987)](iran-contra.md) — the domestic scandal running in parallel with Reagan's Cold War diplomacy throughout 1987.
-- [Montreal Protocol (September 16, 1987)](montreal-protocol.md) — another landmark international agreement concluded in the same year, reflecting 1987's unusually productive multilateral diplomacy.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — Reagan and Gorbachev signed the INF Treaty just six months after the Brandenburg Gate speech, fulfilling the diplomatic pressure it symbolised.
+- [[_kb/1987/history-politics/iran-contra|Iran-Contra Affair (1986–1987)]] — the domestic scandal running in parallel with Reagan's Cold War diplomacy throughout 1987.
+- [[_kb/1987/history-politics/montreal-protocol|Montreal Protocol (September 16, 1987)]] — another landmark international agreement concluded in the same year, reflecting 1987's unusually productive multilateral diplomacy.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]
 
 ## Sources
 

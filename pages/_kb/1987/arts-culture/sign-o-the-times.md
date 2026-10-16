@@ -1,10 +1,15 @@
 ---
-title: "Sign 'O' the Times (Prince, 1987)"
+title: Sign 'O' the Times (Prince, 1987)
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-03-31
-category: "Arts & Culture"
+description: Prince's double album released March 31, 1987, widely considered his finest work and one of the greatest albums in popular music history.
+layout: article
+permalink: /kb/1987/arts-culture/sign-o-the-times/
+aliases:
+- /kb/1987/arts-culture/sign-o-the-times/
 ---
-
-# Sign 'O' the Times
 
 **Category**: Arts & Culture **Key figures**: Prince (artist, sole producer), Wendy Melvoin, Lisa Coleman, Sheila E., Eric Leeds, Sheena Easton (featured vocalist)
 
@@ -29,13 +34,11 @@ The album's title track directly addressed the AIDS epidemic, gang violence, and
 - [Sign 'O' the Times — Wikipedia](https://en.wikipedia.org/wiki/Sign_o'_the_Times)
 - [Celebrating 30 Years of Prince's *Sign 'O' the Times* — Albumism](https://albumism.com/features/tribute-celebrating-30-years-of-prince-sign-o-the-times)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [U2's *The Joshua Tree* (March 9, 1987)](the-joshua-tree.md) — released three weeks before *Sign 'O' the Times*; *The Joshua Tree* beat Prince's album for the 1988 Grammy Album of the Year.
-- [*Beloved* by Toni Morrison (September 16, 1987)](beloved.md) — another major 1987 work that directly addressed social crisis; both Morrison's novel and Prince's title track engaged with AIDS and societal violence in 1987.
-- [Aretha Franklin: First Woman in the Rock and Roll Hall of Fame](aretha-franklin-hof.md) — another landmark Arts & Culture moment of 1987.
-- [*Full Metal Jacket* (1987)](full-metal-jacket.md) — Stanley Kubrick's Vietnam War film, another major cultural release of the same year.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the defining economic shock of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/the-joshua-tree|U2's *The Joshua Tree* (March 9, 1987)]] — released three weeks before *Sign 'O' the Times*; *The Joshua Tree* beat Prince's album for the 1988 Grammy Album of the Year.
+- [[_kb/1987/arts-culture/beloved|*Beloved* by Toni Morrison (September 16, 1987)]] — another major 1987 work that directly addressed social crisis; both Morrison's novel and Prince's title track engaged with AIDS and societal violence in 1987.
+- [[_kb/1987/arts-culture/aretha-franklin-hof|Aretha Franklin: First Woman in the Rock and Roll Hall of Fame]] — another landmark Arts & Culture moment of 1987.
+- [[_kb/1987/arts-culture/full-metal-jacket|*Full Metal Jacket* (1987)]] — Stanley Kubrick's Vietnam War film, another major cultural release of the same year.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the defining economic shock of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

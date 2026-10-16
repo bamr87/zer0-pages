@@ -1,0 +1,33 @@
+# Sidebar for the 2005 knowledge base (pages/_kb/2005/).
+# Used by: every page under pages/_kb/2005/, via the `_kb/2005` scope in
+#          _config.yml defaults (sidebar: nav: kb-2005).
+
+- title: "2005"
+  icon: bi-calendar3
+  url: /kb/2005/
+  expanded: true
+  children:
+    - title: Home
+      url: /kb/2005/
+    - title: Timeline
+      url: /kb/2005/timeline/
+
+- title: Categories
+  icon: bi-folder2-open
+  url: /kb/2005/
+  expanded: true
+  children:
+    - title: History & Politics
+      url: /kb/2005/history-politics/
+    - title: Science & Technology
+      url: /kb/2005/science-technology/
+    - title: Arts & Culture
+      url: /kb/2005/arts-culture/
+    - title: Society & Economics
+      url: /kb/2005/society-economics/
+    - title: People
+      url: /kb/2005/people/
+
+- title: All knowledge bases
+  icon: bi-archive
+  url: /kb/

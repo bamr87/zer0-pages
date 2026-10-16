@@ -1,10 +1,15 @@
 ---
-title: "Iran-Contra Affair (1986–1987)"
+title: Iran-Contra Affair (1986–1987)
+type: topic
+kb: '1987'
+category: History & Politics
 date: 1987-07-07
-category: "History & Politics"
+description: Reagan administration secretly sells arms to Iran and diverts proceeds to Nicaraguan Contras; Oliver North's testimony before the joint congressional committee rivets 55 million viewers.
+layout: article
+permalink: /kb/1987/history-politics/iran-contra/
+aliases:
+- /kb/1987/history-politics/iran-contra/
 ---
-
-# Iran-Contra Affair (1986–1987)
 
 **Category**: History & Politics **Key figures**: Ronald Reagan (President), Oliver North (NSC aide), John Poindexter (National Security Advisor), Robert McFarlane (former National Security Adviser), Caspar Weinberger (Defense Secretary), Fawn Hall (North's secretary), Lawrence Walsh (Independent Counsel)
 
@@ -29,11 +34,9 @@ Internationally, the affair undermined US credibility on counterterrorism policy
 - [Iran–Contra affair — Wikipedia](https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair)
 - [Iran-Contra Affair — Encyclopædia Britannica](https://www.britannica.com/event/Iran-Contra-Affair)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [INF Treaty (December 8, 1987)](inf-treaty.md) — Reagan and Gorbachev's landmark arms-control agreement, signed the same year the Iran-Contra scandal unfolded.
-- [Reagan's "Tear Down This Wall" Speech (June 12, 1987)](reagan-berlin-speech.md) — Reagan's Cold War challenge to Gorbachev, delivered months after the Tower Commission report.
-- [First Intifada (December 1987)](first-intifada.md) — another major geopolitical crisis of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — Reagan and Gorbachev's landmark arms-control agreement, signed the same year the Iran-Contra scandal unfolded.
+- [[_kb/1987/history-politics/reagan-berlin-speech|Reagan's "Tear Down This Wall" Speech (June 12, 1987)]] — Reagan's Cold War challenge to Gorbachev, delivered months after the Tower Commission report.
+- [[_kb/1987/history-politics/first-intifada|First Intifada (December 1987)]] — another major geopolitical crisis of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

@@ -1,10 +1,15 @@
 ---
-title: "INF Treaty (December 8, 1987)"
+title: INF Treaty (December 8, 1987)
+type: topic
+kb: '1987'
+category: History & Politics
 date: 1987-12-08
-category: "History & Politics"
+description: Reagan and Gorbachev sign the Intermediate-Range Nuclear Forces Treaty, the first arms-control accord to eliminate an entire class of nuclear weapons.
+layout: article
+permalink: /kb/1987/history-politics/inf-treaty/
+aliases:
+- /kb/1987/history-politics/inf-treaty/
 ---
-
-# INF Treaty (December 8, 1987)
 
 **Category**: History & Politics **Key figures**: Ronald Reagan (US President), Mikhail Gorbachev (Soviet General Secretary), Paul Nitze (US negotiator), Margaret Thatcher (UK Prime Minister, key broker)
 
@@ -27,12 +32,10 @@ The treaty signaled a fundamental shift in US-Soviet relations and contributed d
 - [Intermediate-Range Nuclear Forces Treaty — Wikipedia](https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty)
 - [INF Treaty — U.S. Department of State](https://2009-2017.state.gov/t/avc/trty/102360.htm)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Reagan's "Tear Down This Wall" Speech (June 12, 1987)](reagan-berlin-speech.md) — Reagan's Brandenburg Gate address preceded the INF Treaty signing by six months, building the diplomatic groundwork.
-- [Iran-Contra Affair (1986–1987)](iran-contra.md) — the domestic scandal that shadowed Reagan's foreign-policy achievements in 1987.
-- [First Intifada (December 9, 1987)](first-intifada.md) — the other major December 1987 geopolitical event, as Palestinian uprising reshaped Middle East politics.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the other defining global event of late 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/history-politics/reagan-berlin-speech|Reagan's "Tear Down This Wall" Speech (June 12, 1987)]] — Reagan's Brandenburg Gate address preceded the INF Treaty signing by six months, building the diplomatic groundwork.
+- [[_kb/1987/history-politics/iran-contra|Iran-Contra Affair (1986–1987)]] — the domestic scandal that shadowed Reagan's foreign-policy achievements in 1987.
+- [[_kb/1987/history-politics/first-intifada|First Intifada (December 9, 1987)]] — the other major December 1987 geopolitical event, as Palestinian uprising reshaped Middle East politics.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the other defining global event of late 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

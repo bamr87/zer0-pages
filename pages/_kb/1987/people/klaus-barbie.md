@@ -1,10 +1,15 @@
 ---
-title: "Klaus Barbie — Convicted of Crimes Against Humanity (July 4, 1987)"
+title: Klaus Barbie — Convicted of Crimes Against Humanity (July 4, 1987)
+type: topic
+kb: '1987'
+category: People
 date: 1987-07-04
-category: "People"
+description: Former Lyon Gestapo chief is convicted in France's first crimes-against-humanity prosecution and sentenced to life imprisonment for the deportation and murder of thousands.
+layout: article
+permalink: /kb/1987/people/klaus-barbie/
+aliases:
+- /kb/1987/people/klaus-barbie/
 ---
-
-# Klaus Barbie — Convicted of Crimes Against Humanity (July 4, 1987)
 
 **Category**: People **Key figures**: Klaus Barbie (defendant), Jacques Vergès (defense attorney), Beate Klarsfeld (Nazi hunter who located Barbie), Sabine Zlatin (founder of the Izieu children's home), Lea Feldblum (sole survivor of the Izieu deportation), Judge André Cerdini (presiding)
 
@@ -33,12 +38,10 @@ Internationally, the trial reinforced the principle that there is no statute of 
 - [Klaus Barbie — Encyclopædia Britannica](https://www.britannica.com/biography/Klaus-Barbie)
 - [Nikolaus "Klaus" Barbie: The Butcher of Lyon — United States Holocaust Memorial Museum](https://encyclopedia.ushmm.org/content/en/article/nikolaus-klaus-barbie-the-butcher-of-lyon)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)](gary-hart.md) — another 1987 People entry involving political accountability and public scrutiny.
-- [Rudolf Hess (death, August 17, 1987)](rudolf-hess.md) — another prominent Nazi figure whose 1987 death closed a chapter of World War II accountability.
-- [Mathias Rust (flight to Red Square, May 28, 1987)](mathias-rust.md) — another major 1987 People entry involving Cold War-era confrontation.
-- [First Intifada (December 9, 1987)](../history-politics/first-intifada.md) — another 1987 event reshaping international understandings of justice and occupation.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/people/gary-hart|Gary Hart — Withdrawal from the 1988 Presidential Race (May 8, 1987)]] — another 1987 People entry involving political accountability and public scrutiny.
+- [[_kb/1987/people/rudolf-hess|Rudolf Hess (death, August 17, 1987)]] — another prominent Nazi figure whose 1987 death closed a chapter of World War II accountability.
+- [[_kb/1987/people/mathias-rust|Mathias Rust (flight to Red Square, May 28, 1987)]] — another major 1987 People entry involving Cold War-era confrontation.
+- [[_kb/1987/history-politics/first-intifada|First Intifada (December 9, 1987)]] — another 1987 event reshaping international understandings of justice and occupation.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

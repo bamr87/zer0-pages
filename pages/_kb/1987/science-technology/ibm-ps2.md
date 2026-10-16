@@ -1,10 +1,15 @@
 ---
-title: "IBM PS/2 Launch (April 2, 1987)"
+title: IBM PS/2 Launch (April 2, 1987)
+type: topic
+kb: '1987'
+category: Science & Technology
 date: 1987-04-02
-category: "Science & Technology"
+description: IBM introduces the Personal System/2, standardizing VGA graphics, PS/2 ports, and 3.5-inch floppies; its proprietary MCA bus is rejected by clone makers, effectively ending IBM's control of the PC market.
+layout: article
+permalink: /kb/1987/science-technology/ibm-ps2/
+aliases:
+- /kb/1987/science-technology/ibm-ps2/
 ---
-
-# IBM PS/2 Launch (April 2, 1987)
 
 **Category**: Science & Technology **Key figures**: IBM PC Company (developer), Bill Lowe (IBM executive who oversaw the original PC), Don Estridge (IBM PC architect, died 1985), Compaq and nine OEMs who formed the EISA consortium in response
 
@@ -39,11 +44,9 @@ The enduring legacy of the PS/2 lies in its successful standards: VGA remained t
 - [IBM Personal System/2 — Wikipedia](https://en.wikipedia.org/wiki/IBM_Personal_System/2)
 - [IBM Introduces the PS/2 Family of Personal Computers in 1987 — CEDMagic](https://www.cedmagic.com/history/ibm-ps2-1987.html)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Microsoft Windows 2.0 (December 9, 1987)](windows-2.md) — released the same year, Microsoft's GUI push ran alongside IBM's hardware push.
-- [DNA Fingerprinting in Criminal Court (November 1987)](dna-fingerprinting.md) — another landmark Science & Technology milestone of 1987.
-- [Black Monday (October 19, 1987)](../society-economics/black-monday.md) — the financial shock that shook markets the same year IBM launched the PS/2.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/science-technology/windows-2|Microsoft Windows 2.0 (December 9, 1987)]] — released the same year, Microsoft's GUI push ran alongside IBM's hardware push.
+- [[_kb/1987/science-technology/dna-fingerprinting|DNA Fingerprinting in Criminal Court (November 1987)]] — another landmark Science & Technology milestone of 1987.
+- [[_kb/1987/society-economics/black-monday|Black Monday (October 19, 1987)]] — the financial shock that shook markets the same year IBM launched the PS/2.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

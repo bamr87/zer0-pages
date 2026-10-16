@@ -1,10 +1,15 @@
 ---
-title: "Full Metal Jacket"
+title: Full Metal Jacket
+type: topic
+kb: '1987'
+category: Arts & Culture
 date: 1987-06-26
-category: "Arts & Culture"
+description: Stanley Kubrick's two-part Vietnam War film, released June 26, 1987, a landmark entry in the cinema of the Vietnam War.
+layout: article
+permalink: /kb/1987/arts-culture/full-metal-jacket/
+aliases:
+- /kb/1987/arts-culture/full-metal-jacket/
 ---
-
-# Full Metal Jacket
 
 **Category**: Arts & Culture **Key figures**: Stanley Kubrick (director, producer, co-writer), Matthew Modine (Pvt. "Joker" Davis), R. Lee Ermey (Gunnery Sgt. Hartman), Vincent D'Onofrio (Pvt. "Pyle" Lawrence), Michael Herr and Gustav Hasford (co-screenwriters)
 
@@ -27,11 +32,9 @@ The film's two-part structure, austere visual style, and ambivalent moral stance
 - [Full Metal Jacket — Wikipedia](https://en.wikipedia.org/wiki/Full_Metal_Jacket)
 - [Full Metal Jacket — Encyclopædia Britannica](https://www.britannica.com/topic/Full-Metal-Jacket)
 
-<!-- BEGIN GENERATED: related — maintained by build-structure; do not edit by hand -->
 ## Related
 
-- [Sign 'O' the Times (Prince, March 31, 1987)](sign-o-the-times.md) — another Arts & Culture landmark of 1987, Prince's acclaimed double album.
-- [Aretha Franklin: First Woman in the Rock and Roll Hall of Fame](aretha-franklin-hof.md) — another Arts & Culture milestone of the same year.
-- [INF Treaty (December 8, 1987)](../history-politics/inf-treaty.md) — the Cold War–era arms-control milestone of 1987.
-- [Index of 1987 topics](../index.md) · [Timeline](../TIMELINE.md)
-<!-- END GENERATED: related -->
+- [[_kb/1987/arts-culture/sign-o-the-times|Sign 'O' the Times (Prince, March 31, 1987)]] — another Arts & Culture landmark of 1987, Prince's acclaimed double album.
+- [[_kb/1987/arts-culture/aretha-franklin-hof|Aretha Franklin: First Woman in the Rock and Roll Hall of Fame]] — another Arts & Culture milestone of the same year.
+- [[_kb/1987/history-politics/inf-treaty|INF Treaty (December 8, 1987)]] — the Cold War–era arms-control milestone of 1987.
+- [[_kb/1987/index|Index of 1987 topics]] · [[_kb/1987/timeline|Timeline]]

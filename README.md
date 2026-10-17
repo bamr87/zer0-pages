@@ -1,5 +1,11 @@
 # zer0-pages
 
+> Obsidian vault published as a Jekyll knowledge site via build-time bridge plugins; the second brain of zer0-mistakes.
+
+[![CI](https://github.com/bamr87/zer0-pages/actions/workflows/ci.yml/badge.svg)](https://github.com/bamr87/zer0-pages/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/bamr87/zer0-pages)](LICENSE) [![Live site](https://img.shields.io/badge/live-bamr87.github.io%2Fzer0--pages-2ea44f)](https://bamr87.github.io/zer0-pages/)
+
+## Overview
+
 **Zero friction. Infinite possibilities.**
 
 zer0-pages is an AI-powered knowledge site with a twist: the content is an [Obsidian](https://obsidian.md) vault, the librarian is [claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian), and the publisher is [Jekyll](https://jekyllrb.com) running in GitHub Actions. You (or Claude, on your behalf) write plain Obsidian-native markdown — wikilinks, callouts, Dataview queries — and a set of custom build-time "bridge" plugins convert those constructs to HTML for GitHub Pages. The site's look and feel comes from the [zer0-mistakes](https://github.com/bamr87/zer0-mistakes) theme, consumed as the published `jekyll-theme-zer0` gem.
@@ -7,6 +13,14 @@ zer0-pages is an AI-powered knowledge site with a twist: the content is an [Obsi
 The vault is never polluted with Liquid templating. The published site never requires Obsidian. One body of content, two first-class consumers.
 
 Beyond showcasing the theme, zer0-pages' declared purpose is to act as a **second brain for [zer0-mistakes](https://github.com/bamr87/zer0-mistakes)** — a place where research, decisions, and usage knowledge about the theme accumulate and can feed back into its development, rather than living only in this repo's own showcase content. See [pages/wiki/entities/zer0-mistakes.md](pages/wiki/entities/zer0-mistakes.md) for the current state of that relationship (and an open gap: the deep technical knowledge still lives only in the zer0-mistakes repo itself, not yet ingested here).
+
+## Features
+
+- Content is a plain Obsidian vault with wikilinks, callouts and Dataview queries
+- Build-time bridge plugins convert Obsidian constructs to HTML for GitHub Pages
+- Styled by the zer0-mistakes theme, consumed as the `jekyll-theme-zer0` gem
+- claude-obsidian acts as the vault's librarian
+- A graph view of how notes connect
 
 ## Architecture
 
@@ -82,3 +96,29 @@ a Django+React CMS vision that predates and does not match the vault+bridge syst
 the site's UI, published as the `jekyll-theme-zer0` gem, and the project this repo exists to be a second brain for (see [pages/wiki/entities/zer0-mistakes.md](pages/wiki/entities/zer0-mistakes.md)). Working on the theme itself? See the "local theme development" tip in [CLAUDE.md](CLAUDE.md).
 - [claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) — the upstream
   knowledge-engine project (Karpathy's LLM Wiki pattern).
+
+## Development
+
+```bash
+bundle install && bundle exec jekyll build
+ruby -Ipages/_plugins tests/test_obsidian_bridge.rb
+```
+
+Full commands, conventions and gotchas for humans and AI agents live in [CLAUDE.md](CLAUDE.md).
+
+## Contributing
+
+Contributions are welcome via pull request. Use [Conventional Commits](https://www.conventionalcommits.org/) and keep the CI checks green. The fleet-wide workflow is described in the hub's [CONTRIBUTING.md](https://github.com/bamr87/bamr87/blob/main/CONTRIBUTING.md). AI agents should start with [CLAUDE.md](CLAUDE.md).
+
+## Changelog
+
+There is no CHANGELOG.md yet; changes are tracked in the [commit history](https://github.com/bamr87/zer0-pages/commits/main).
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+---
+
+<!-- bamr87-portfolio-footer -->
+<sub>Part of the [bamr87 portfolio](https://github.com/bamr87) — browse every project on [Amr's GitHub profile](https://github.com/bamr87).</sub>
